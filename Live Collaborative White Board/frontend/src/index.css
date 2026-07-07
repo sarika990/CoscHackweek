@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink-50: #FFF5F8;
+  --color-pink-100: #FDECEF;
+  --color-pink-200: #F8D7E3;
+  --color-pink-300: #F3B5CA;
+  --color-pink-400: #E98DB0;
+  --color-pink-500: #D86392;
+  --color-pink-600: #C24177;
+  --color-pink-700: #A32A5E;
+  --color-pink-800: #872551;
+  --color-pink-900: #712247;
+  
+  --font-sans: 'Inter', 'Poppins', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-pink-50 text-gray-800 font-sans;
+  }
+}
+
+@layer utilities {
+  .soft-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  .soft-shadow-lg {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+}
