@@ -1,0 +1,12 @@
+# Variables in MiniLanguage
+let age = 25
+let name = "Alice"
+let is_student = true
+
+print "Name: " + name
+print "Age: " + age
+print "Is student: " + is_student
+
+# Reassignment
+age = age + 1
+print "Age next year: " + age

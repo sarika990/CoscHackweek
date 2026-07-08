@@ -1,0 +1,5 @@
+# Custom Programming Language & Interpreter (MiniLanguage)
+# Built entirely using Python 3 standard libraries. No external packages are strictly required.
+
+# Optional: testing tools
+pytest>=7.0.0

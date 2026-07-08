@@ -1,0 +1,11 @@
+# Factorial in MiniLanguage
+
+fn factorial(n)
+    if n <= 1
+        return 1
+    end
+    return n * factorial(n - 1)
+end
+
+let val = 5
+print "Factorial of " + val + " is " + factorial(val)

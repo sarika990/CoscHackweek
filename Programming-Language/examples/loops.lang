@@ -1,0 +1,19 @@
+# Loops in MiniLanguage
+
+print "For Loop:"
+for i = 1 to 5
+    print i
+end
+
+print "While Loop with Break and Continue:"
+let j = 0
+while j < 10
+    j = j + 1
+    if j % 2 == 0
+        continue
+    end
+    if j > 7
+        break
+    end
+    print j
+end

@@ -1,0 +1,14 @@
+# Calculator in MiniLanguage
+print "Simple MiniLanguage Calculator"
+
+let a = 15
+let b = 4
+
+print "First number: " + a
+print "Second number: " + b
+
+print "Addition: " + (a + b)
+print "Subtraction: " + (a - b)
+print "Multiplication: " + (a * b)
+print "Division: " + (a / b)
+print "Modulo: " + (a % b)

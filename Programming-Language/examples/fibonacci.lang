@@ -1,0 +1,16 @@
+# Fibonacci in MiniLanguage
+
+let limit = 10
+let a = 0
+let b = 1
+let count = 0
+
+print "First " + limit + " Fibonacci numbers:"
+
+while count < limit
+    print a
+    let next_val = a + b
+    a = b
+    b = next_val
+    count = count + 1
+end

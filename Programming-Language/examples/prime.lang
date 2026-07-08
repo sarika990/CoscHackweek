@@ -1,0 +1,35 @@
+# Prime Number Checker in MiniLanguage
+
+fn is_prime(num)
+    if num <= 1
+        return false
+    end
+    if num == 2
+        return true
+    end
+    
+    # Check divisors from 2 up to num - 1
+    let divisor = 2
+    let limit = num
+    while divisor < limit
+        if num % divisor == 0
+            return false
+        end
+        divisor = divisor + 1
+    end
+    return true
+end
+
+let test_num = 17
+if is_prime(test_num)
+    print test_num + " is a prime number"
+else
+    print test_num + " is not a prime number"
+end
+
+let test_num2 = 20
+if is_prime(test_num2)
+    print test_num2 + " is a prime number"
+else
+    print test_num2 + " is not a prime number"
+end
