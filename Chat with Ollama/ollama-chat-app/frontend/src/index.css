@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+  
+  --color-glass-dark: rgba(10, 20, 15, 0.65);
+  --color-glass-card: rgba(16, 30, 24, 0.55);
+  --color-glass-border: rgba(16, 185, 129, 0.15);
+  --color-glass-border-hover: rgba(16, 185, 129, 0.3);
+  --color-glass-glow: rgba(52, 211, 153, 0.05);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 20, 15, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.4);
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  background: var(--color-glass-dark);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-glass-border);
+}
+
+.glass-card {
+  background: var(--color-glass-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: var(--color-glass-border-hover);
+  box-shadow: 0 8px 32px 0 rgba(16, 185, 129, 0.1);
+  transform: translateY(-1px);
+}
+
+.glass-input {
+  background: rgba(8, 15, 11, 0.8);
+  border: 1px solid var(--color-glass-border);
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-input:focus {
+  border-color: rgba(52, 211, 153, 0.5);
+  box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.15);
+  outline: none;
+}
+
+/* Custom Liquid Glow Effect */
+.liquid-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.liquid-glow::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(52, 211, 153, 0.1) 0%, transparent 60%);
+  pointer-events: none;
+  animation: liquid-drift 10s infinite alternate linear;
+}
+
+@keyframes liquid-drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(10%, 15%) rotate(360deg);
+  }
+}
+
+/* Shimmer animation for skeletons */
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(16, 30, 24, 0.5) 25%,
+    rgba(52, 211, 153, 0.1) 50%,
+    rgba(16, 30, 24, 0.5) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Pulse animation for active dot */
+.pulse-green {
+  animation: pulse-green-glow 2s infinite;
+}
+
+@keyframes pulse-green-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(52, 211, 153, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+  }
+}
