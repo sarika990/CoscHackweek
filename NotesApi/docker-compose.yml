@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  notes-api:
+    build: .
+    container_name: notes-api-container
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-5000}:${PORT:-5000}"
+    volumes:
+      - notes-data:/usr/src/app/data
+
+volumes:
+  notes-data:

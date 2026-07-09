@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+.env
+data/notes.json
+README.md
+C:\Users\pc\.gemini\antigravity
