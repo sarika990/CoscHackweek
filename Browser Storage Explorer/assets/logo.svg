@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="searchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Database stacks -->
+  <ellipse cx="12" cy="5" rx="8" ry="2.5" fill="url(#dbGrad)" />
+  
+  <path d="M4 5v4c0 1.38 3.58 2.5 8 2.5s8-1.12 8-2.5V5" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-linejoin="round" />
+  <ellipse cx="12" cy="9" rx="8" ry="2.5" fill="url(#dbGrad)" opacity="0.8" />
+  
+  <path d="M4 9v4c0 1.38 3.58 2.5 8 2.5s8-1.12 8-2.5V9" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-linejoin="round" />
+  <ellipse cx="12" cy="13" rx="8" ry="2.5" fill="url(#dbGrad)" opacity="0.6" />
+  
+  <path d="M4 13v4c0 1.38 3.58 2.5 8 2.5s8-1.12 8-2.5v-4" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-linejoin="round" />
+  <ellipse cx="12" cy="17" rx="8" ry="2.5" fill="url(#dbGrad)" opacity="0.4" />
+
+  <!-- Magnifying Glass overlay (Search/Explorer) -->
+  <circle cx="16" cy="16" r="4.5" fill="#0F172A" stroke="url(#searchGrad)" stroke-width="2" />
+  <line x1="19.5" y1="19.5" x2="22.5" y2="22.5" stroke="url(#searchGrad)" stroke-width="2.5" stroke-linecap="round" />
+</svg>
