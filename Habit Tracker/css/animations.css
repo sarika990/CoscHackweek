@@ -1,0 +1,123 @@
+/* 
+   Habit Tracker - Animations
+   Manages core transition curves, background blob hoverings, toast entrances, and click pops.
+*/
+
+/* Floating Blobs Keyframes */
+@keyframes floatBlob1 {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(80px, 50px) scale(1.1);
+    }
+    100% {
+        transform: translate(-40px, -60px) scale(0.95);
+    }
+}
+
+@keyframes floatBlob2 {
+    0% {
+        transform: translate(0, 0) scale(0.9);
+    }
+    50% {
+        transform: translate(-100px, 80px) scale(1.15);
+    }
+    100% {
+        transform: translate(50px, -40px) scale(1);
+    }
+}
+
+@keyframes floatBlob3 {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+    50% {
+        transform: translate(60px, -80px) scale(0.85);
+    }
+    100% {
+        transform: translate(-70px, 40px) scale(1.05);
+    }
+}
+
+/* Pulsing Brand Logo */
+@keyframes logoPulse {
+    0%, 100% {
+        transform: scale(1) rotate(0deg);
+        box-shadow: 0 8px 20px rgba(122, 21, 247, 0.4);
+    }
+    50% {
+        transform: scale(1.06) rotate(3deg);
+        box-shadow: 0 12px 30px rgba(243, 85, 136, 0.55);
+    }
+}
+
+/* Toast slides */
+@keyframes slideInRight {
+    0% {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+}
+
+.slide-in {
+    animation: slideInRight 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.slide-out {
+    animation: slideOutRight 0.3s ease-in forwards;
+}
+
+/* Click cell completion POP animation */
+@keyframes cellPop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+        filter: brightness(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pop-animation {
+    animation: cellPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.5) forwards;
+}
+
+/* Card Loading Entry Fade / Slide */
+@keyframes cardEntry {
+    0% {
+        opacity: 0;
+        transform: translateY(25px) scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.habit-card {
+    animation: cardEntry 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.1) forwards;
+}
+
+/* Button Ripple-like Pulse hover */
+.btn-primary:active, .btn-secondary:active, .action-btn:active {
+    transform: scale(0.95);
+}

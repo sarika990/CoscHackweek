@@ -1,0 +1,332 @@
+/* 
+   Habit Tracker - Calendar & Habit Card Grid Styles
+   Customizes the interactive calendar day squares, cell tooltip wrappers, and full card styling.
+*/
+
+/* Habit Card Layout */
+.habits-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.habit-card {
+    background: var(--bg-card);
+    border: 1px solid var(--bg-card-border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 28px;
+    padding: 25px;
+    box-shadow: var(--shadow-premium);
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.habit-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--card-hover-border);
+    box-shadow: 0 20px 40px rgba(122, 21, 247, 0.15);
+}
+
+/* Subtle background accent glow using native custom property '--accent-color' */
+.habit-card-glow {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--accent-color) 0%, rgba(0,0,0,0) 70%);
+    opacity: var(--card-accent-opacity);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Habit Card Header Elements */
+.habit-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.habit-info-main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.habit-emoji {
+    font-size: 32px;
+    width: 55px;
+    height: 55px;
+    background: var(--bg-input);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--bg-card-border);
+}
+
+.habit-title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.habit-name {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.habit-badges {
+    display: flex;
+    gap: 8px;
+}
+
+/* SVG Progress Rings */
+.habit-progress-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring__background {
+    stroke: var(--bg-input-border);
+}
+
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.6s ease-in-out;
+}
+
+.progress-pct-label {
+    position: absolute;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+/* Habit Card Stats Row */
+.habit-card-stats {
+    display: flex;
+    background: var(--bg-input);
+    border: 1px solid var(--bg-card-border);
+    border-radius: 18px;
+    padding: 12px;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+}
+
+.card-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-lbl {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-val {
+    font-family: var(--font-heading);
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 3px;
+}
+
+.streak-icon { color: var(--clr-orange); }
+.crown-icon { color: var(--clr-yellow); }
+
+/* Habit notes & reminder text */
+.habit-notes-preview {
+    font-size: 13px;
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 5px;
+}
+
+.habit-notes-preview i {
+    margin-right: 5px;
+}
+
+/* 30-Day Grid Calendar inside Habit Cards */
+.habit-calendar-wrapper {
+    background: var(--bg-input);
+    border: 1px solid var(--bg-card-border);
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+}
+
+.calendar-cell {
+    aspect-ratio: 1;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition-smooth);
+}
+
+.calendar-cell:focus {
+    outline: 2px solid var(--clr-purple);
+    outline-offset: 1px;
+}
+
+.calendar-cell .day-num {
+    z-index: 2;
+}
+
+/* Cell States */
+.calendar-cell.completed {
+    background: var(--clr-green) !important;
+    color: white;
+    box-shadow: 0 3px 8px rgba(0, 230, 118, 0.4);
+}
+
+.calendar-cell.missed {
+    background: var(--clr-red) !important;
+    color: white;
+    box-shadow: 0 3px 8px rgba(255, 56, 56, 0.4);
+}
+
+.calendar-cell.pending {
+    background: var(--bg-input-border) !important;
+    color: var(--text-primary);
+    border: 1px dashed var(--clr-purple);
+}
+
+.calendar-cell.today {
+    border: 2px solid var(--clr-purple);
+    transform: scale(1.05);
+}
+
+.calendar-cell.future {
+    opacity: 0.25;
+    background: rgba(0,0,0,0.05) !important;
+    cursor: not-allowed;
+}
+
+.calendar-cell:hover:not(.future) {
+    transform: scale(1.15);
+    z-index: 10;
+}
+
+.calendar-cell.completed:hover {
+    box-shadow: 0 6px 14px rgba(0, 230, 118, 0.6);
+}
+
+.calendar-cell.missed:hover {
+    box-shadow: 0 6px 14px rgba(255, 56, 56, 0.6);
+}
+
+/* Card Actions styling */
+.habit-card-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 2;
+}
+
+.action-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid var(--bg-card-border);
+    background: var(--bg-input);
+    color: var(--text-secondary);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    transition: var(--transition-smooth);
+}
+
+.action-btn:hover {
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
+.btn-duplicate:hover { background: var(--clr-cyan); color: white; box-shadow: 0 4px 10px rgba(0, 242, 254, 0.3); }
+.btn-reset:hover { background: var(--clr-orange); color: white; box-shadow: 0 4px 10px rgba(255, 126, 71, 0.3); }
+.btn-edit:hover { background: var(--clr-purple); color: white; box-shadow: 0 4px 10px rgba(122, 21, 247, 0.3); }
+.btn-delete:hover { background: var(--clr-red); color: white; box-shadow: 0 4px 10px rgba(255, 56, 56, 0.3); }
+
+/* Empty state layout */
+.empty-habits-state {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--bg-card);
+    border: 1px dashed var(--bg-input-border);
+    border-radius: 28px;
+}
+
+.empty-state-icon {
+    font-size: 48px;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.empty-state-title {
+    font-family: var(--font-heading);
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.empty-state-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    max-width: 400px;
+    margin: 0 auto;
+}

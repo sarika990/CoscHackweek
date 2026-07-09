@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitCraft - Premium Habit Tracker</title>
+    <meta name="description" content="A premium, production-ready, maximalism-styled Habit Tracker to craft your routines.">
+    
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom Style Links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- Dynamic Animated Background Shapes -->
+    <div class="bg-blobs" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="app-container">
+        
+        <!-- Header / Navigation -->
+        <header class="top-nav">
+            <div class="nav-brand">
+                <div class="logo-container" aria-label="HabitCraft Logo">⚡</div>
+                <h1 class="app-name">HabitCraft</h1>
+            </div>
+            
+            <div class="search-container">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input type="search" id="search-bar" class="search-bar" placeholder="Search habits..." aria-label="Search habits">
+            </div>
+
+            <div class="nav-actions">
+                <button id="export-btn" class="btn btn-secondary btn-sm" title="Export Backup Data" aria-label="Export habits data as JSON">
+                    <i class="fas fa-file-export"></i> <span>Export</span>
+                </button>
+                <button id="import-trigger-btn" class="btn btn-secondary btn-sm" title="Import Backup Data" aria-label="Import habits data from JSON">
+                    <i class="fas fa-file-import"></i> <span>Import</span>
+                </button>
+                <!-- Hidden input for file picking -->
+                <input type="file" id="import-file-input" accept=".json" style="display: none;" aria-hidden="true">
+                
+                <button id="theme-toggle" class="btn btn-secondary btn-circle" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Stats Counter Dashboard Row (Hero Dashboard) -->
+        <section class="stats-deck" aria-label="Global Statistics">
+            <div class="stat-card">
+                <div class="stat-card-icon" style="background: rgba(122, 21, 247, 0.1); color: var(--clr-purple);">
+                    <i class="fas fa-list-ul"></i>
+                </div>
+                <span id="stat-total-habits" class="stat-card-val">0</span>
+                <span class="stat-card-lbl">Total Habits</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon" style="background: rgba(0, 242, 254, 0.1); color: var(--clr-cyan);">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <span id="stat-completed-today" class="stat-card-val">0</span>
+                <span class="stat-card-lbl">Today's Completed</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon" style="background: rgba(243, 85, 136, 0.1); color: var(--clr-pink);">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <span id="stat-completion-rate" class="stat-card-val">0%</span>
+                <span class="stat-card-lbl">Completion Pct</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-icon" style="background: rgba(0, 230, 118, 0.1); color: var(--clr-green);">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <span id="stat-current-streak" class="stat-card-val">0</span>
+                <span class="stat-card-lbl">Current Streak</span>
+            </div>
+        </section>
+
+        <!-- Main Body Grid Layout -->
+        <div class="dashboard-grid">
+            
+            <!-- Left Column: Creation and Analytics -->
+            <aside class="dashboard-sidebar">
+                
+                <!-- Habit Creation Section -->
+                <section class="glass-card" aria-labelledby="create-habit-title">
+                    <h2 class="card-title" id="create-habit-title">
+                        <i class="fas fa-plus-circle"></i> Create Habit
+                    </h2>
+                    
+                    <form id="create-habit-form" novalidate>
+                        <div class="form-group">
+                            <label for="habit-name" class="form-label">Habit Name</label>
+                            <input type="text" id="habit-name" class="input-control" placeholder="e.g. Code 1 hour" required>
+                        </div>
+
+                        <div class="form-picker-grid">
+                            <div class="form-group">
+                                <label for="habit-category" class="form-label">Category</label>
+                                <select id="habit-category" class="input-control" required>
+                                    <option value="Health">Health</option>
+                                    <option value="Fitness">Fitness</option>
+                                    <option value="Study">Study</option>
+                                    <option value="Work">Work</option>
+                                    <option value="Reading">Reading</option>
+                                    <option value="Coding" selected>Coding</option>
+                                    <option value="Meditation">Meditation</option>
+                                    <option value="Personal">Personal</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="habit-priority" class="form-label">Priority</label>
+                                <select id="habit-priority" class="input-control" required>
+                                    <option value="High" selected>High</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Low">Low</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-picker-grid">
+                            <div class="form-group" style="position: relative;">
+                                <label class="form-label">Emoji Icon</label>
+                                <div style="display: flex; gap: 10px; align-items: center;">
+                                    <button type="button" id="form-emoji-trigger" class="emoji-selector-trigger" aria-label="Select Emoji">💻</button>
+                                    <span style="font-size: 13px; color: var(--text-secondary);">Click to change</span>
+                                </div>
+                                <input type="hidden" id="habit-emoji-val" value="💻">
+                                
+                                <!-- Dropdown container (hidden by default) -->
+                                <div id="form-emoji-popover" class="emoji-popover" style="display: none;" aria-label="Emoji Palette">
+                                    <span class="emoji-popover-item" role="button">💻</span>
+                                    <span class="emoji-popover-item" role="button">🏋️‍♂️</span>
+                                    <span class="emoji-popover-item" role="button">🧘‍♀️</span>
+                                    <span class="emoji-popover-item" role="button">📚</span>
+                                    <span class="emoji-popover-item" role="button">💧</span>
+                                    <span class="emoji-popover-item" role="button">🍎</span>
+                                    <span class="emoji-popover-item" role="button">🧠</span>
+                                    <span class="emoji-popover-item" role="button">🚀</span>
+                                    <span class="emoji-popover-item" role="button">⏰</span>
+                                    <span class="emoji-popover-item" role="button">🎸</span>
+                                    <span class="emoji-popover-item" role="button">✍️</span>
+                                    <span class="emoji-popover-item" role="button">🌱</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="habit-color" class="form-label">Card Accent Color</label>
+                                <div class="color-picker-wrapper">
+                                    <input type="color" id="habit-color" class="color-circle-input" value="#00f2fe" aria-label="Choose color theme">
+                                    <span style="font-size: 13px; color: var(--text-secondary);">Pick color</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="habit-reminder" class="form-label">Reminder Time (Optional)</label>
+                            <input type="time" id="habit-reminder" class="input-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="habit-notes" class="form-label">Notes (Optional)</label>
+                            <textarea id="habit-notes" class="input-control" placeholder="Add details or motivational quotes..."></textarea>
+                        </div>
+
+                        <div style="display: flex; gap: 10px; margin-top: 10px;">
+                            <button type="submit" class="btn btn-primary" style="flex: 1;">
+                                <i class="fas fa-check"></i> Add Habit
+                            </button>
+                            <button type="reset" id="form-reset-btn" class="btn btn-secondary">
+                                Reset
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- Achievement Badges Showcase -->
+                <section class="glass-card" aria-labelledby="achievements-title">
+                    <h2 class="card-title" id="achievements-title">
+                        <i class="fas fa-trophy"></i> Achievements
+                    </h2>
+                    <div class="achievements-grid" id="achievements-container">
+                        <div class="achievement-badge" id="badge-first" title="Log your first habit completion!">
+                            <span class="badge-icon">🎯</span>
+                            <span class="badge-title">First Habit</span>
+                        </div>
+                        <div class="achievement-badge" id="badge-streak-3" title="Maintain a 3 day streak!">
+                            <span class="badge-icon">🔥</span>
+                            <span class="badge-title">3 Day Streak</span>
+                        </div>
+                        <div class="achievement-badge" id="badge-streak-7" title="Maintain a 7 day streak!">
+                            <span class="badge-icon">⚡</span>
+                            <span class="badge-title">7 Day Streak</span>
+                        </div>
+                        <div class="achievement-badge" id="badge-streak-15" title="Maintain a 15 day streak!">
+                            <span class="badge-icon">🏆</span>
+                            <span class="badge-title">15 Day Streak</span>
+                        </div>
+                        <div class="achievement-badge" id="badge-completions-100" title="Log 100 total completions!">
+                            <span class="badge-icon">👑</span>
+                            <span class="badge-title">100 Logs</span>
+                        </div>
+                    </div>
+                </section>
+
+            </aside>
+
+            <!-- Right Column: Filtering, Habits List, Charts -->
+            <main class="dashboard-content">
+                
+                <!-- Filters & Sorting Control Bar -->
+                <section class="controls-bar" aria-label="Controls Bar">
+                    <div class="filter-group">
+                        <span class="controls-label">Filters</span>
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="completed">Completed</button>
+                        <button class="filter-btn" data-filter="pending">Pending</button>
+                        <button class="filter-btn" data-filter="priority-high">High Priority</button>
+                        <button class="filter-btn" data-filter="cat-coding">Coding</button>
+                        <button class="filter-btn" data-filter="cat-fitness">Fitness</button>
+                    </div>
+                    
+                    <div class="sort-group">
+                        <label for="sort-select" class="controls-label">Sort By</label>
+                        <select id="sort-select" class="sort-select">
+                            <option value="newest" selected>Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="alphabetical">Alphabetical</option>
+                            <option value="highest-streak">Highest Streak</option>
+                            <option value="highest-completion">Most Completed</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- Habit Cards Container -->
+                <section id="habits-list-section" aria-label="Habit Cards List">
+                    <div class="habits-container" id="habits-grid-container">
+                        <!-- Dynamic habit cards rendered here -->
+                    </div>
+                </section>
+
+                <!-- Dynamic CSS-only Analytics Drawer -->
+                <section class="glass-card" aria-labelledby="analytics-title">
+                    <h2 class="card-title" id="analytics-title">
+                        <i class="fas fa-chart-bar"></i> Analytics & Insights
+                    </h2>
+                    <div id="analytics-charts-wrapper">
+                        <!-- Rendered by statistics.js -->
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Modals Section -->
+    
+    <!-- 1. Edit Habit Modal -->
+    <div id="edit-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="edit-modal-title">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="edit-modal-title" class="modal-title">Edit Habit</h3>
+                <button id="close-edit-modal" class="modal-close" aria-label="Close edit modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="edit-habit-form" novalidate>
+                    <input type="hidden" id="edit-habit-id">
+                    
+                    <div class="form-group">
+                        <label for="edit-habit-name" class="form-label">Habit Name</label>
+                        <input type="text" id="edit-habit-name" class="input-control" required>
+                    </div>
+
+                    <div class="form-picker-grid">
+                        <div class="form-group">
+                            <label for="edit-habit-category" class="form-label">Category</label>
+                            <select id="edit-habit-category" class="input-control" required>
+                                <option value="Health">Health</option>
+                                <option value="Fitness">Fitness</option>
+                                <option value="Study">Study</option>
+                                <option value="Work">Work</option>
+                                <option value="Reading">Reading</option>
+                                <option value="Coding">Coding</option>
+                                <option value="Meditation">Meditation</option>
+                                <option value="Personal">Personal</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-habit-priority" class="form-label">Priority</label>
+                            <select id="edit-habit-priority" class="input-control" required>
+                                <option value="High">High</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Low">Low</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-picker-grid">
+                        <div class="form-group" style="position: relative;">
+                            <label class="form-label">Emoji Icon</label>
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <button type="button" id="edit-emoji-trigger" class="emoji-selector-trigger" aria-label="Select Emoji">💻</button>
+                                <span style="font-size: 13px; color: var(--text-secondary);">Change</span>
+                            </div>
+                            <input type="hidden" id="edit-emoji-val">
+                            
+                            <div id="edit-emoji-popover" class="emoji-popover" style="display: none;" aria-label="Emoji Palette">
+                                <span class="emoji-popover-item" role="button">💻</span>
+                                <span class="emoji-popover-item" role="button">🏋️‍♂️</span>
+                                <span class="emoji-popover-item" role="button">🧘‍♀️</span>
+                                <span class="emoji-popover-item" role="button">📚</span>
+                                <span class="emoji-popover-item" role="button">💧</span>
+                                <span class="emoji-popover-item" role="button">🍎</span>
+                                <span class="emoji-popover-item" role="button">🧠</span>
+                                <span class="emoji-popover-item" role="button">🚀</span>
+                                <span class="emoji-popover-item" role="button">⏰</span>
+                                <span class="emoji-popover-item" role="button">🎸</span>
+                                <span class="emoji-popover-item" role="button">✍️</span>
+                                <span class="emoji-popover-item" role="button">🌱</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="edit-habit-color" class="form-label">Card Accent Color</label>
+                            <div class="color-picker-wrapper">
+                                <input type="color" id="edit-habit-color" class="color-circle-input">
+                                <span style="font-size: 13px; color: var(--text-secondary);">Pick color</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="edit-habit-reminder" class="form-label">Reminder Time</label>
+                        <input type="time" id="edit-habit-reminder" class="input-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="edit-habit-notes" class="form-label">Notes</label>
+                        <textarea id="edit-habit-notes" class="input-control"></textarea>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" id="cancel-edit-btn" class="btn btn-secondary">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Delete Confirmation Modal -->
+    <div id="delete-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="delete-modal-title">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="delete-modal-title" class="modal-title" style="color: var(--clr-red);"><i class="fas fa-exclamation-triangle"></i> Delete Habit?</h3>
+                <button id="close-delete-modal" class="modal-close" aria-label="Close delete modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete <strong id="delete-habit-display-name">this habit</strong>? This action is permanent and cannot be undone.</p>
+            </div>
+            <div class="modal-footer">
+                <button id="cancel-delete-btn" class="btn btn-secondary">Keep Habit</button>
+                <button id="confirm-delete-btn" class="btn btn-danger">Yes, Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Reset Confirmation Modal -->
+    <div id="reset-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="reset-modal-title">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="reset-modal-title" class="modal-title" style="color: var(--clr-orange);"><i class="fas fa-redo-alt"></i> Reset Progress?</h3>
+                <button id="close-reset-modal" class="modal-close" aria-label="Close reset modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to clear all completion logs and reset streaks for <strong id="reset-habit-display-name">this habit</strong>? Your stats will restart from scratch.</p>
+            </div>
+            <div class="modal-footer">
+                <button id="cancel-reset-btn" class="btn btn-secondary">Cancel</button>
+                <button id="confirm-reset-btn" class="btn btn-danger" style="background: var(--clr-orange); box-shadow: 0 8px 20px rgba(255,126,71,0.3);">Yes, Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container for notifications dynamically injected -->
+    <div id="toast-container" aria-live="polite" aria-hidden="true"></div>
+
+    <!-- Application Orchestration Script -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

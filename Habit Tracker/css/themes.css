@@ -1,0 +1,38 @@
+/* 
+   Habit Tracker - Theme Theme Override Configuration
+   Specifies root color variables and overlay values for Dark and Light mode themes.
+*/
+
+/* Default Theme - Dark Mode Variables */
+:root[data-theme="dark"] {
+    --bg-page: #0d0b18;
+    --bg-card: rgba(26, 22, 46, 0.75);
+    --bg-card-border: rgba(255, 255, 255, 0.08);
+    --bg-input: rgba(14, 11, 28, 0.8);
+    --bg-input-border: rgba(255, 255, 255, 0.15);
+    --text-primary: #ffffff;
+    --text-secondary: #a9a6c2;
+    --glass-opacity: 0.25;
+    --shadow-premium: 0 15px 35px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.3);
+    --card-accent-opacity: 0.15;
+    --card-hover-border: rgba(255, 255, 255, 0.25);
+    --badge-bg: rgba(255, 255, 255, 0.1);
+    --modal-overlay: rgba(5, 3, 11, 0.85);
+}
+
+/* Light Theme Variables */
+:root[data-theme="light"] {
+    --bg-page: #f6f5fc;
+    --bg-card: rgba(255, 255, 255, 0.85);
+    --bg-card-border: rgba(122, 21, 247, 0.12);
+    --bg-input: #ffffff;
+    --bg-input-border: rgba(122, 21, 247, 0.25);
+    --text-primary: #120e29;
+    --text-secondary: #5e5a7b;
+    --glass-opacity: 0.1;
+    --shadow-premium: 0 15px 35px rgba(122, 21, 247, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
+    --card-accent-opacity: 0.08;
+    --card-hover-border: rgba(122, 21, 247, 0.4);
+    --badge-bg: rgba(122, 21, 247, 0.08);
+    --modal-overlay: rgba(18, 14, 41, 0.6);
+}
