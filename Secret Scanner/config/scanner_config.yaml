@@ -1,0 +1,71 @@
+# Security Secret Scanner Configuration
+
+# Directories to exclude from scanning by default
+ignored_folders:
+  - ".git"
+  - "node_modules"
+  - "venv"
+  - ".venv"
+  - "env"
+  - "__pycache__"
+  - "dist"
+  - "build"
+  - "coverage"
+  - ".pytest_cache"
+  - ".idea"
+  - ".vscode"
+  - "reports"
+  - "logs"
+
+# Files to exclude from scanning by default
+ignored_files:
+  - "scanner_config.yaml"
+  - "requirements.txt"
+  - "LICENSE"
+  - "package-lock.json"
+  - "yarn.lock"
+  - "pnpm-lock.yaml"
+
+# File extensions to scan. If empty, all non-binary files are scanned.
+allowed_extensions:
+  - ".py"
+  - ".js"
+  - ".ts"
+  - ".jsx"
+  - ".tsx"
+  - ".env"
+  - ".json"
+  - ".yaml"
+  - ".yml"
+  - ".ini"
+  - ".toml"
+  - ".txt"
+  - ".md"
+  - ".xml"
+  - ".html"
+  - ".css"
+  - ".java"
+  - ".cpp"
+  - ".c"
+  - ".cs"
+  - ".go"
+  - ".php"
+  - ".rb"
+  - ".swift"
+  - ".kt"
+  - ".sql"
+
+# Minimum confidence threshold (low, medium, high)
+confidence_threshold: "medium"
+
+# Enable/disable high-entropy string checking
+enable_entropy: true
+
+# Entropy threshold for string checking (bits per character)
+entropy_threshold: 4.5
+
+# Report formats to generate when reporting
+report_formats:
+  - "json"
+  - "txt"
+  - "html"

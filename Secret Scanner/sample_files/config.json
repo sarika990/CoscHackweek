@@ -1,0 +1,6 @@
+{
+  "app_name": "DemoApp",
+  "debug": false,
+  "slack_bot_token": "xoxb-1234567890-abcdefghijklmnopqrstuvwx",
+  "client_secret": "my_client_super_secret_key_12345!"
+}
