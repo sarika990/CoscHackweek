@@ -1,0 +1,26 @@
+import express from 'express';
+import {
+  registerUser,
+  loginUser,
+  logoutUser,
+  getUserProfile,
+  updateUserProfile,
+  changePassword,
+} from '../controllers/authController.js';
+import { protect } from '../middlewares/authMiddleware.js';
+import { uploadFields } from '../middlewares/uploadMiddleware.js';
+
+const router = express.Router();
+
+router.post('/register', registerUser);
+router.post('/login', loginUser);
+router.post('/logout', logoutUser);
+
+router
+  .route('/profile')
+  .get(protect, getUserProfile)
+  .put(protect, uploadFields, updateUserProfile);
+
+router.put('/change-password', protect, changePassword);
+
+export default router;
