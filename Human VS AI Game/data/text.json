@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "content": "After all these years, I realized that home isn't a place with a chimney and a welcome mat. It's the smell of coffee at 6 AM, the squeak of the third step on the stairs, and the way the light hits the kitchen table just before the world wakes up.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "content": "You see, the trouble with writing is that you start with a feeling and end with a bunch of words. But in between, you lose the essence. It's like trying to catch water with your bare hands; you get wet, but you're still thirsty.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "content": "My grandmother used to say that keys are meant to open doors, not lock them. I never really understood what she meant until I found myself in a foreign city with a suitcase full of books and nowhere to spend the night.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "content": "It was a quiet sort of Tuesday. The rain didn't pour so much as it drifted, hanging in the air like a damp sheet. I sat on the porch, watching the snails make their slow, silver journeys across the flagstones.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "content": "Sometimes, you just need to walk until your feet hurt. It clears the cobwebs out of the brain. You notice things—a discarded playing card, the shape of a shadow, the sound of a distant train whistling at a crossing.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "content": "Cooking is just chemistry with taste. You add a pinch of salt to draw out the water, a splash of vinegar to balance the fat, and a lot of patience. If you rush it, the stew knows. It tastes of hurry.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "content": "I've always loved libraries. Not just for the books, but for the silence. It's a heavy, shared silence, full of hundreds of people all traveling to different places in their heads while sitting in the same room.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "content": "The cat didn't care about the storm. She lay curled on the radiator, a small, warm crescent of indifference. The thunder shook the glass in the windows, but she only twitched an ear, refusing to be bothered.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "content": "We walked down to the pier at midnight. The sea was black and flat, reflecting the harbor lights like spilled oil. We didn't talk much; the sound of the water lapping against the wooden pilings did it for us.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "content": "My first camera was a plastic thing that took blurry photos and leaked light. I loved it. There was a magic in not knowing what you'd got until the film came back, weeks later, in a paper envelope.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "content": "There is a peculiar comfort in old coats. They have the shape of your shoulders, the memory of rain in the wool, and pockets deep enough for hands, keys, and loose change. They are like old friends.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "content": "The garden was overgrown, a tangle of briars and wild mint. We spent the afternoon pulling weeds, our hands smelling of earth and green sap. By sunset, we hadn't made much difference, but we felt lighter.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "content": "I don't think he ever learned to speak softly. Even his whispers had a gravelly edge, like stones rolling in a stream. You could hear him coming from three rooms away, announcing his arrival with a cough.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "content": "The coffee shop was too loud, full of the clatter of porcelain and the hiss of steam. I sat in the corner, trying to read, but found myself listening to the couple next to me arguing about a lost umbrella.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "content": "It is easy to forget how big the sky is until you get out of the city. Standing on the ridge, with the wind blowing through the dry grass, I felt small and clean, like a pebble washed up on a beach.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "content": "He had a habit of checking his watch every five minutes, not because he was late, but because he was impatient with the present. He was always looking forward to the next thing, missing the now.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "content": "The old piano was out of tune, the keys yellowed and stiff. When you pressed middle C, it gave a dry, woody plunk that sounded like a sigh. But it still had a song left in it, if you knew how to play.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "content": "We found the letters in a tin box under the floorboards. They were tied with faded blue ribbon, the ink brown and spidery. They spoke of trivial things—the price of butter, a cold winter, a dog that ran away.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "content": "I like trains. I like the steady, rhythmic click-clack of the tracks, the way the landscape slides past like a movie reel, and the brief, silent glimpses into other people's backyards.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "content": "She was the sort of person who kept everything. Ticket stubs, dried flowers, smooth pebbles from a dozen beaches. Her room was a museum of small moments, none of them important to anyone but her.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "content": "The morning fog was so thick we couldn't see the gate. The trees looked like giants standing in milk. We walked carefully, our breath rising in white plumes, guided only by the gravel crunching underfoot.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "content": "I never liked modern art. It always felt like a joke I wasn't in on. I prefer pictures that look like what they are—a bowl of apples that makes you want to eat, a portrait with eyes that follow you.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "content": "The radio was playing an old jazz tune, full of static and warmth. It sounded like it was coming from a different decade, which it was. I lay on the rug, watching the dust motes dance in the light.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "content": "He was a quiet man, who worked with his hands and spoke only when he had something to say. His hands were rough and calloused, but he handled the small birds he bred with an incredible, soft gentleness.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "content": "The clock in the hall was always five minutes fast. We never corrected it; we liked the little head start it gave us. It made us feel like we were living slightly in the future, ahead of the rush.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "content": "I remember the smell of my father's workshop—sawdust, linseed oil, and old iron. It was a dry, clean smell that meant safety and creation. I still search for that smell in every room I enter.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 27,
+    "type": "text",
+    "content": "The beach was deserted, the sand cold and wet under our bare feet. We collected pieces of driftwood, shape-worn and salty, to make a fire that would smoke more than it burned.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 28,
+    "type": "text",
+    "content": "She had a laugh that could fill a room, a bright, bubbling sound that made everyone else smile without knowing why. It was impossible to be sad near her; she simply wouldn't allow it.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 29,
+    "type": "text",
+    "content": "The book was falling apart, the spine broken and the pages dog-eared. It had been read by a dozen people before me, each leaving a thumbprint, a coffee stain, or a penciled note in the margin.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 30,
+    "type": "text",
+    "content": "We sat on the kitchen counter, eating cold pizza at three in the morning. The house was dead quiet, save for the hum of the fridge. It was one of those perfect, small moments you want to bottle up.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Look for informal narrative voice, subjective descriptions, and natural phrasing.",
+    "explanation": "This text utilizes personal idioms, emotional warmth, and varying sentence lengths that indicate a human writer.",
+    "fact": "Human writing often includes subtle grammatical quirks, emotional color, and metaphors derived from lived experience."
+  },
+  {
+    "id": 31,
+    "type": "text",
+    "content": "In the contemporary epoch of technological advancement, the integration of digital systems within daily workflows has revolutionized the efficiency of task completion. It is imperative to acknowledge that artificial intelligence facilitates optimized resource allocation across diverse industrial sectors.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 32,
+    "type": "text",
+    "content": "The dynamic paradigm of modern urban architecture reflects a synthesis of sustainable engineering and aesthetic innovation. Developers are increasingly leveraging advanced thermodynamic models to minimize carbon footprints while maximizing structural longevity and user comfort.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 33,
+    "type": "text",
+    "content": "To optimize productivity, one must establish a highly structured routine characterized by clear deliverables and strategic milestones. Implementing cognitive frameworks enables individuals to streamline decision-making processes, thereby enhancing output quality and reducing cognitive fatigue.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 34,
+    "type": "text",
+    "content": "The phenomenon of global economic fluctuation is closely linked to supply chain disruptions and geopolitical shifts. Analytical models indicate that predictive algorithms can mitigate financial risk by forecasting market demands with a high degree of precision and reliability.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 35,
+    "type": "text",
+    "content": "As we navigate the complexities of the twenty-first century, the cultivation of digital literacy emerges as a crucial educational objective. Students must acquire the capability to analyze information critically and utilize digital platforms in a responsible and ethical manner.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 36,
+    "type": "text",
+    "content": "Scientific research demonstrates that photosynthesis is a fundamental process converting solar energy into chemical energy. This chemical reaction, occurring within chloroplasts, utilizes carbon dioxide and water to synthesize glucose, releasing oxygen as a vital byproduct.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 37,
+    "type": "text",
+    "content": "Effective communication is the cornerstone of successful project management. By maintaining transparent channels, team leaders can foster collaboration, align individual goals with organizational objectives, and ensure the timely execution of complex project milestones.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 38,
+    "type": "text",
+    "content": "The development of autonomous transportation systems represents a significant milestone in mechanical engineering. These vehicles utilize complex arrays of sensors and machine learning algorithms to navigate complex urban environments with minimal human intervention.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 39,
+    "type": "text",
+    "content": "Environmental conservation efforts must prioritize the preservation of biodiversity in tropical rainforests. These ecosystems support an immense variety of flora and fauna, playing a critical role in stabilizing global weather patterns and sequestering atmospheric carbon.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 40,
+    "type": "text",
+    "content": "The application of machine learning in healthcare diagnostic procedures has shown promising results. Algorithms trained on massive datasets can identify anomalies in radiological images with accuracy levels comparable to, and sometimes exceeding, human specialists.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 41,
+    "type": "text",
+    "content": "In order to achieve optimal performance in athletic activities, one must balance intensive physical training with adequate recovery periods. Physiological studies indicate that muscle repair occurs primarily during deep sleep cycles, highlighting the importance of rest.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 42,
+    "type": "text",
+    "content": "The evolution of literature from oral traditions to digital media has transformed how narratives are consumed. The democratization of publishing platforms allows a diverse array of voices to reach global audiences, shifting traditional publishing dynamics.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 43,
+    "type": "text",
+    "content": "Industrial automation utilizes control systems, such as computers or robots, to handle different processes and machineries to replace human beings. It is the second step beyond mechanization in the scope of industrialization.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 44,
+    "type": "text",
+    "content": "The primary objective of financial planning is to ensure long-term stability through strategic investment and asset diversification. By assessing risk tolerance and market conditions, individuals can construct portfolios that withstand economic downturns.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 45,
+    "type": "text",
+    "content": "Renovating historic structures requires a delicate balance between preserving architectural heritage and integrating modern building codes. Architects must select materials that harmonize with the original design while meeting contemporary safety standards.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 46,
+    "type": "text",
+    "content": "The concept of smart cities revolves around the collection of real-time data to optimize municipal services. By integrating IoT devices into infrastructure, cities can manage traffic flow, reduce energy consumption, and improve public safety metrics.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 47,
+    "type": "text",
+    "content": "Cognitive behavioral therapy is a widely recognized psychological intervention aimed at modifying dysfunctional emotions and behaviors. Research supports its efficacy in treating various mental health conditions by reframing negative thought patterns.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 48,
+    "type": "text",
+    "content": "The study of astrophysics provides deep insights into the origin and evolution of the universe. By analyzing light spectra from distant stars, researchers can determine chemical compositions, velocity, and distance from Earth.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 49,
+    "type": "text",
+    "content": "Implementing renewable energy solutions is critical for mitigating the adverse impacts of climate change. Solar and wind technologies offer scalable alternatives to fossil fuels, reducing greenhouse gas emissions and fostering energy independence.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 50,
+    "type": "text",
+    "content": "The field of cybersecurity involves protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information, or extorting money from users.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 51,
+    "type": "text",
+    "content": "Effective time management is a vital skill for academic and professional success. Prioritizing tasks using tools like the Eisenhower Matrix allows individuals to allocate their energy to high-impact activities first.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 52,
+    "type": "text",
+    "content": "The transition to a circular economy requires a fundamental redesign of production systems to eliminate waste. By focusing on product longevity, repairability, and recycling, industries can minimize environmental degradation.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 53,
+    "type": "text",
+    "content": "Artificial neural networks are computational models inspired by the structure of biological brains. They consist of interconnected nodes that process information in parallel, learning patterns through iterative training processes.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 54,
+    "type": "text",
+    "content": "The historical significance of the Silk Road lies in its role as a bridge for cultural and economic exchange between East and West. It facilitated the trade of goods, ideas, and technologies across vast geographic regions.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 55,
+    "type": "text",
+    "content": "Water purification is essential for public health, removing contaminants from raw water sources. Modern facilities employ multiple stages of filtration and chemical treatment to ensure water meets safety standards for consumption.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 56,
+    "type": "text",
+    "content": "The rise of e-commerce has fundamentally altered retail business models globally. Merchants must adopt omnichannel strategies to engage consumers effectively across digital and physical touchpoints to maintain market share.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 57,
+    "type": "text",
+    "content": "Organizational culture plays a crucial role in employee retention and engagement. Companies that prioritize transparency, inclusivity, and professional growth tend to foster higher levels of job satisfaction and productivity.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 58,
+    "type": "text",
+    "content": "Quantum computing utilizes the principles of superposition and entanglement to perform calculations at speeds unattainable by classical computers. This technology holds great potential for fields like cryptography and drug discovery.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 59,
+    "type": "text",
+    "content": "The practice of mindfulness meditation has been shown to reduce stress and improve focus. By training attention on the present moment, practitioners can manage anxiety and enhance overall emotional well-being.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  },
+  {
+    "id": 60,
+    "type": "text",
+    "content": "Sustainable agriculture techniques aim to meet current food needs without compromising resources for future generations. Practices like crop rotation, organic farming, and water conservation are central to this methodology.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look for overly formal transitions, perfect grammar, and repetitive sentence structures.",
+    "explanation": "This text displays a structured, highly objective tone with transition words (e.g., \"thereby\", \"it is imperative\") typical of LLM generation.",
+    "fact": "AI models default to polite, objective, and grammatically flawless structures, avoiding colloquial spelling and organic rhythms."
+  }
+]

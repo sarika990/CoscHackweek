@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "type": "voice",
+    "phrase": "Hi! Did you remember to get milk on your way back? I totally forgot.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 2,
+    "type": "voice",
+    "phrase": "Yeah... so, basically, the meeting was postponed to Friday morning at ten.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 3,
+    "type": "voice",
+    "phrase": "I can't believe it's already July. Where did the year go, seriously?",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 4,
+    "type": "voice",
+    "phrase": "Hold on, let me check the map. I think we missed the highway exit back there.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 5,
+    "type": "voice",
+    "phrase": "Oh, cool! I love this song, turn it up a bit, will you?",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 6,
+    "type": "voice",
+    "phrase": "Honestly, I'm just too tired to go out tonight. Can we order pizza instead?",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 7,
+    "type": "voice",
+    "phrase": "Wow, look at that sunrise! The colors are absolutely insane today.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 8,
+    "type": "voice",
+    "phrase": "Hey, are you free this weekend? We should go hiking or something.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 9,
+    "type": "voice",
+    "phrase": "Oops, my bad! I didn't mean to spill water all over your desk.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 10,
+    "type": "voice",
+    "phrase": "Just give me five minutes and I'll be ready. I'm running a bit behind.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 11,
+    "type": "voice",
+    "phrase": "Hi! Did you remember to get milk on your way back? I totally forgot.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 12,
+    "type": "voice",
+    "phrase": "Yeah... so, basically, the meeting was postponed to Friday morning at ten.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 13,
+    "type": "voice",
+    "phrase": "I can't believe it's already July. Where did the year go, seriously?",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 14,
+    "type": "voice",
+    "phrase": "Hold on, let me check the map. I think we missed the highway exit back there.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 15,
+    "type": "voice",
+    "phrase": "Oh, cool! I love this song, turn it up a bit, will you?",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 16,
+    "type": "voice",
+    "phrase": "Honestly, I'm just too tired to go out tonight. Can we order pizza instead?",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 17,
+    "type": "voice",
+    "phrase": "Wow, look at that sunrise! The colors are absolutely insane today.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 18,
+    "type": "voice",
+    "phrase": "Hey, are you free this weekend? We should go hiking or something.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 19,
+    "type": "voice",
+    "phrase": "Oops, my bad! I didn't mean to spill water all over your desk.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 20,
+    "type": "voice",
+    "phrase": "Just give me five minutes and I'll be ready. I'm running a bit behind.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 21,
+    "type": "voice",
+    "phrase": "Hi! Did you remember to get milk on your way back? I totally forgot.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 22,
+    "type": "voice",
+    "phrase": "Yeah... so, basically, the meeting was postponed to Friday morning at ten.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 23,
+    "type": "voice",
+    "phrase": "I can't believe it's already July. Where did the year go, seriously?",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 24,
+    "type": "voice",
+    "phrase": "Hold on, let me check the map. I think we missed the highway exit back there.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 25,
+    "type": "voice",
+    "phrase": "Oh, cool! I love this song, turn it up a bit, will you?",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 26,
+    "type": "voice",
+    "phrase": "Honestly, I'm just too tired to go out tonight. Can we order pizza instead?",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 27,
+    "type": "voice",
+    "phrase": "Wow, look at that sunrise! The colors are absolutely insane today.",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 28,
+    "type": "voice",
+    "phrase": "Hey, are you free this weekend? We should go hiking or something.",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 29,
+    "type": "voice",
+    "phrase": "Oops, my bad! I didn't mean to spill water all over your desk.",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 30,
+    "type": "voice",
+    "phrase": "Just give me five minutes and I'll be ready. I'm running a bit behind.",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Listen for breathing spaces, slang, and dynamic tone modulation.",
+    "explanation": "The audio expression contains informal tone markers, breathing indicators, and normal human hesitations.",
+    "fact": "Human vocal cords introduce slight noise, variable pitch, and subconscious breathing patterns that are extremely hard to replicate."
+  },
+  {
+    "id": 31,
+    "type": "voice",
+    "phrase": "Greetings. Please confirm if you have purchased the milk during your transit.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 32,
+    "type": "voice",
+    "phrase": "Please note that the meeting has been rescheduled to Friday at ten hours.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 33,
+    "type": "voice",
+    "phrase": "We have reached the month of July. Time elapsed appears significant.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 34,
+    "type": "voice",
+    "phrase": "Warning. Route deviation detected. Please make a legal U-turn.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 35,
+    "type": "voice",
+    "phrase": "Audio playback initiated. Adjusting sound amplitude to maximum level.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 36,
+    "type": "voice",
+    "phrase": "System indicates high fatigue levels. Recommending food delivery services.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 37,
+    "type": "voice",
+    "phrase": "Optimal atmospheric lighting detected. Displaying solar radiation pattern.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 38,
+    "type": "voice",
+    "phrase": "Inquiry. Determine your availability status for outdoor recreation.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 39,
+    "type": "voice",
+    "phrase": "Error. Unintentional fluid discharge has occurred on the workspace surface.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 40,
+    "type": "voice",
+    "phrase": "Preparation in progress. Estimated time of arrival is exactly five minutes.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 41,
+    "type": "voice",
+    "phrase": "Greetings. Please confirm if you have purchased the milk during your transit.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 42,
+    "type": "voice",
+    "phrase": "Please note that the meeting has been rescheduled to Friday at ten hours.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 43,
+    "type": "voice",
+    "phrase": "We have reached the month of July. Time elapsed appears significant.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 44,
+    "type": "voice",
+    "phrase": "Warning. Route deviation detected. Please make a legal U-turn.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 45,
+    "type": "voice",
+    "phrase": "Audio playback initiated. Adjusting sound amplitude to maximum level.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 46,
+    "type": "voice",
+    "phrase": "System indicates high fatigue levels. Recommending food delivery services.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 47,
+    "type": "voice",
+    "phrase": "Optimal atmospheric lighting detected. Displaying solar radiation pattern.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 48,
+    "type": "voice",
+    "phrase": "Inquiry. Determine your availability status for outdoor recreation.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 49,
+    "type": "voice",
+    "phrase": "Error. Unintentional fluid discharge has occurred on the workspace surface.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 50,
+    "type": "voice",
+    "phrase": "Preparation in progress. Estimated time of arrival is exactly five minutes.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 51,
+    "type": "voice",
+    "phrase": "Greetings. Please confirm if you have purchased the milk during your transit.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 52,
+    "type": "voice",
+    "phrase": "Please note that the meeting has been rescheduled to Friday at ten hours.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 53,
+    "type": "voice",
+    "phrase": "We have reached the month of July. Time elapsed appears significant.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 54,
+    "type": "voice",
+    "phrase": "Warning. Route deviation detected. Please make a legal U-turn.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 55,
+    "type": "voice",
+    "phrase": "Audio playback initiated. Adjusting sound amplitude to maximum level.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 56,
+    "type": "voice",
+    "phrase": "System indicates high fatigue levels. Recommending food delivery services.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 57,
+    "type": "voice",
+    "phrase": "Optimal atmospheric lighting detected. Displaying solar radiation pattern.",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 58,
+    "type": "voice",
+    "phrase": "Inquiry. Determine your availability status for outdoor recreation.",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 59,
+    "type": "voice",
+    "phrase": "Error. Unintentional fluid discharge has occurred on the workspace surface.",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  },
+  {
+    "id": 60,
+    "type": "voice",
+    "phrase": "Preparation in progress. Estimated time of arrival is exactly five minutes.",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Notice the formal, mechanical phrasing and lack of natural hesitations or filler words.",
+    "explanation": "The text and voice synthesis settings feature robotic, formal, highly structured sentence pacing.",
+    "fact": "AI voices are generated with continuous pitch curves that often lack the micro-vocal fry and natural inhalation pauses of humans."
+  }
+]

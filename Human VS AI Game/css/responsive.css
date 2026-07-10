@@ -1,0 +1,220 @@
+/* ==========================================================================
+   RESPONSIVE.CSS - Media Queries for Mobile, Tablet, and Desktop Breakpoints
+   ========================================================================== */
+
+/* --- Tablet / Large Mobile Breakpoint (Max 992px) --- */
+@media (max-width: 992px) {
+  .rules-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .select-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .select-grid .mixed-card {
+    grid-column: span 2;
+  }
+
+  .diff-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-charts-grid .chart-container:nth-child(3) {
+    grid-column: span 1;
+  }
+
+  .stats-summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+/* --- Mobile Breakpoint (Max 768px) --- */
+@media (max-width: 768px) {
+  .site-header {
+    height: 60px;
+    padding: 0 5%;
+  }
+
+  .header-logo {
+    font-size: 1.1rem;
+  }
+
+  .main-container {
+    padding: 20px 5%;
+  }
+
+  .logo-container h1 {
+    font-size: 2.3rem;
+    letter-spacing: 4px;
+  }
+
+  .logo-container .subtitle {
+    font-size: 0.95rem;
+    letter-spacing: 3px;
+  }
+
+  .home-menu {
+    grid-template-columns: 1fr;
+  }
+
+  .home-menu .btn-gradient {
+    grid-column: span 1;
+  }
+
+  .diff-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Gameplay adaptations */
+  .game-hud {
+    height: auto;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    align-items: center;
+  }
+
+  .hud-left, .hud-right {
+    font-size: 0.95rem;
+    gap: 12px;
+  }
+
+  .hud-center {
+    order: -1; /* Place timer at the top on mobile */
+  }
+
+  .question-container {
+    min-height: 320px;
+    padding: 16px;
+  }
+
+  .vector-viewport {
+    max-width: 250px;
+    height: 220px;
+  }
+
+  .evaluation-paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .code-viewport {
+    font-size: 0.85rem;
+    padding: 15px;
+  }
+
+  .control-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .choice-buttons-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .btn-choice {
+    min-height: 80px;
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+
+  .btn-submit, .btn-hint, #game-btn-skip {
+    width: 100%;
+  }
+
+  /* Leaderboard filters */
+  .leaderboard-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .search-box {
+    max-width: none;
+  }
+
+  .sort-selector {
+    justify-content: space-between;
+  }
+
+  .leaderboard-table th, 
+  .leaderboard-table td {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+  }
+
+  /* Settings lists */
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Endgame modifications */
+  .endgame-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .result-value {
+    font-size: 1.8rem;
+  }
+
+  .submission-row {
+    flex-direction: column;
+  }
+
+  .submission-row input {
+    width: 100%;
+  }
+
+  .endgame-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .endgame-menu .btn {
+    width: 100%;
+  }
+
+  .notification-overlay {
+    width: calc(100% - 40px);
+    right: 20px;
+    top: 80px;
+  }
+}
+
+/* --- Accessibility adjustments (High Contrast Mode) --- */
+body.high-contrast {
+  --bg-dark: #000000;
+  --bg-panel: #111122;
+  --bg-card: #1c1c38;
+  --glass-border: 2px solid #ffffff;
+  --color-cyan: #00ffff;
+  --color-purple: #df80ff;
+  --color-pink: #ff3399;
+  --color-green: #33ff99;
+}
+
+body.high-contrast .glass-panel {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
+}
+
+/* --- Accessibility adjustments (Reduced Motion Mode) --- */
+body.reduced-motion *,
+body.reduced-motion *:before,
+body.reduced-motion *:after {
+  animation-delay: -1ms !important;
+  animation-duration: 1ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0s !important;
+  scroll-behavior: auto !important;
+}

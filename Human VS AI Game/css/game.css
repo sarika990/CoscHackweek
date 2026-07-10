@@ -1,0 +1,609 @@
+/* ==========================================================================
+   GAME.CSS - Active Gameplay Arena & Interactive Layouts
+   ========================================================================== */
+
+/* --- Gameplay HUD Bar --- */
+.game-hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  height: 80px;
+}
+
+.hud-left, .hud-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.hud-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* --- Circular SVG Count Down Timer --- */
+.timer-wrapper {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-svg {
+  transform: rotate(-90deg);
+}
+
+.timer-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 4;
+}
+
+.timer-progress {
+  fill: none;
+  stroke: var(--color-cyan);
+  stroke-width: 4;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s linear, stroke 0.3s ease;
+}
+
+.timer-progress.critical {
+  stroke: var(--color-red);
+  filter: drop-shadow(0 0 4px var(--color-red));
+  animation: timer-pulse 0.5s infinite alternate;
+}
+
+.timer-text {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--color-white);
+}
+
+/* --- Mode Selection Cards --- */
+.select-grid, .diff-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  display: grid;
+}
+
+.select-grid .mixed-card {
+  grid-column: span 3;
+}
+
+.mode-card, .diff-card {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  transition: var(--transition-smooth);
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.mode-card i {
+  font-size: 2.2rem;
+}
+
+.mode-card h2, .diff-card h2 {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.mode-card p, .diff-card p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.mode-card:hover, .diff-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-cyan);
+  box-shadow: 0 10px 30px rgba(0, 242, 254, 0.15);
+}
+
+/* --- Gameplay Question Containers --- */
+.question-container {
+  flex: 1;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.gameplay-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-category-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--color-cyan);
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+
+.question-body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* --- Visual Assets Viewports (SVGs) --- */
+.vector-viewport {
+  width: 100%;
+  max-width: 320px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: #0b0b1e;
+}
+
+.vector-viewport svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* --- Text evaluation paragraph --- */
+.evaluation-paragraph {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 750px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: justify;
+}
+
+/* --- Custom Code highlighting rules --- */
+.code-editor-header {
+  background: #111122;
+  border: var(--glass-border);
+  border-bottom: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  max-width: 800px;
+}
+
+.code-editor-header .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red-dot { background-color: #ff5f56; }
+.yellow-dot { background-color: #ffbd2e; }
+.green-dot { background-color: #27c93f; }
+
+.file-name {
+  margin-left: 10px;
+}
+
+.code-viewport {
+  margin: 0;
+  background: #070714;
+  border: var(--glass-border);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 20px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+  width: 100%;
+  max-width: 800px;
+  max-height: 300px;
+}
+
+/* Syntax spans */
+.code-keyword { color: var(--color-cyan); font-weight: bold; }
+.code-string { color: var(--color-yellow); }
+.code-comment { color: rgba(255, 255, 255, 0.4); font-style: italic; }
+.code-tag { color: var(--color-pink); }
+
+/* --- Custom Voice player layout --- */
+.voice-player-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.btn-circular {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cyan);
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.btn-circular:hover {
+  background: var(--color-white);
+  box-shadow: var(--glow-cyan);
+}
+
+.voice-wave-container {
+  flex: 1;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.voice-wave-container canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.voice-transcript {
+  max-width: 600px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* --- Gameplay Controls footer --- */
+.control-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Progress Bar container */
+.game-progress-bar-container {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.game-progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-cyan), var(--color-purple));
+  box-shadow: var(--glow-cyan);
+  transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Options/Prompt container */
+.options-container {
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question-prompt {
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+}
+
+.choice-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.btn-choice {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  font-family: var(--font-ui);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-white);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: auto;
+  min-height: 100px;
+  justify-content: center;
+}
+
+.btn-choice .choice-icon {
+  font-size: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.btn-choice:hover:not(:disabled) {
+  border-color: rgba(0, 242, 254, 0.5);
+  background: rgba(0, 242, 254, 0.03);
+  transform: translateY(-2px);
+}
+
+/* Choice card selected states */
+.btn-choice#choice-human.selected {
+  border-color: var(--color-green);
+  background: rgba(0, 255, 204, 0.08);
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.25);
+  color: var(--color-green);
+}
+
+.btn-choice#choice-ai.selected {
+  border-color: var(--color-pink);
+  background: rgba(254, 1, 154, 0.08);
+  box-shadow: 0 0 20px rgba(254, 1, 154, 0.25);
+  color: var(--color-pink);
+}
+
+/* Submit button styling */
+.btn-submit {
+  flex: 1.5;
+}
+
+.btn-submit:disabled {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.btn-hint {
+  background: rgba(255, 170, 0, 0.1);
+  border: 1px solid var(--color-yellow);
+}
+
+.btn-hint:hover:not(:disabled) {
+  background: var(--color-yellow);
+  color: #000;
+  box-shadow: 0 0 15px rgba(255, 170, 0, 0.6);
+}
+
+/* --- Explanation Overlay Card --- */
+.explanation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.expl-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 10px;
+}
+
+.expl-header h3 {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.expl-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.correct-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.expl-body .description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.fact-card {
+  margin-top: 10px;
+  background: rgba(0, 242, 254, 0.04);
+  border-color: rgba(0, 242, 254, 0.15);
+}
+
+.fact-card h4 {
+  font-family: var(--font-ui);
+  font-size: 1.1rem;
+  color: var(--color-cyan);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.fact-card p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.points-earned {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.points-earned h4 {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
+
+.points-earned ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 20px;
+}
+
+.points-earned ul li {
+  font-size: 0.9rem;
+}
+
+.points-earned ul .total-pts {
+  font-size: 1rem;
+  font-weight: 900;
+  grid-column: span 2;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 8px;
+  margin-top: 4px;
+}
+
+.expl-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* --- Endgame Screen --- */
+.endgame-view {
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  min-height: calc(100vh - 170px);
+  justify-content: center;
+}
+
+.victory-icon {
+  font-size: 4rem;
+  filter: drop-shadow(var(--glow-cyan));
+  margin-bottom: 15px;
+}
+
+.endgame-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.result-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.result-summary h3 {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+}
+
+.result-value {
+  font-family: var(--font-title);
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.leaderboard-submission-card {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leaderboard-submission-card h3 {
+  font-family: var(--font-ui);
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+.leaderboard-submission-card p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.submission-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.submission-row input {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.4);
+  border: var(--glass-border);
+  border-radius: 8px;
+  color: #fff;
+  padding: 0 15px;
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  height: 48px;
+}
+
+.submission-row input:focus {
+  outline: none;
+  border-color: var(--color-cyan);
+  box-shadow: var(--glow-cyan);
+}
+
+.endgame-menu {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  max-width: 800px;
+  justify-content: center;
+}
+
+.endgame-menu .btn {
+  flex: 1;
+}
+
+.endgame-menu .btn-gradient {
+  flex: 1.5;
+}

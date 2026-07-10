@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(23, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(173, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(23, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 2,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(46, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(196, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(46, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 3,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(69, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(219, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(69, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 4,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(92, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(242, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(92, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 5,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(115, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(265, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(115, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 6,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(138, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(288, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(138, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 7,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(161, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(311, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(161, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 8,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(184, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(334, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(184, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 9,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(207, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(357, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(207, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 10,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(230, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(20, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(230, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 11,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(253, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(43, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(253, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 12,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(276, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(66, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(276, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 13,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(299, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(89, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(299, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 14,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(322, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(112, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(322, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 15,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(345, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(135, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(345, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 16,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(8, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(158, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(8, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 17,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(31, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(181, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(31, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 18,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(54, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(204, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(54, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 19,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(77, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(227, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(77, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 20,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(100, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(250, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(100, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 21,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(123, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(273, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(123, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 22,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(146, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(296, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(146, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 23,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(169, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(319, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(169, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 24,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(192, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(342, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(192, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 25,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(215, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(5, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(215, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 26,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(238, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(28, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(238, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 27,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(261, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(51, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(261, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Hard",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 28,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(284, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(74, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(284, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Expert",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 29,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(307, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(97, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(307, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Easy",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 30,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Structured landscape/sunburst pattern representing classical art composition -->\n      <circle cx=\"100\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"hsl(330, 80%, 45%)\" stroke-width=\"2\" />\n      <circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"#ffaa00\" opacity=\"0.2\" />\n      \n      <!-- Symmetrical sunburst lines -->\n      <g stroke=\"#fff\" stroke-width=\"0.8\" opacity=\"0.4\">\n        <line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"180\" />\n        <line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" />\n        <line x1=\"43\" y1=\"43\" x2=\"157\" y2=\"157\" />\n        <line x1=\"43\" y1=\"157\" x2=\"157\" y2=\"43\" />\n      </g>\n      \n      <!-- Clean, sweeping, deliberate strokes -->\n      <path d=\"M20,150 Q100,100 180,150\" fill=\"none\" stroke=\"hsl(120, 80%, 45%)\" stroke-width=\"4\" stroke-linecap=\"round\" />\n      <path d=\"M10,170 Q100,120 190,170\" fill=\"none\" stroke=\"hsl(330, 80%, 45%)\" stroke-width=\"6\" stroke-linecap=\"round\" />\n      \n      <circle cx=\"100\" cy=\"100\" r=\"10\" fill=\"#fff\" />\n    </svg>",
+    "answer": "Human",
+    "difficulty": "Medium",
+    "hint": "Notice the structured sunburst pattern and clean brush paths.",
+    "explanation": "A deliberate composition featuring classical radial balance and clean, sweeping strokes indicating human planning and intent.",
+    "fact": "Human artists follow rules of composition, such as the Rule of Thirds or Golden Ratio, which are visible in their deliberate layouts."
+  },
+  {
+    "id": 31,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(353, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(143, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(353, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(143, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 32,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(16, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(166, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(16, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(166, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 33,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(39, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(189, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(39, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(189, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 34,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(62, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(212, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(62, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(212, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 35,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(85, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(235, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(85, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(235, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 36,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(108, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(258, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(108, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(258, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 37,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(131, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(281, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(131, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(281, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 38,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(154, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(304, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(154, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(304, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 39,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(177, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(327, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(177, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(327, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 40,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(200, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(350, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(200, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(350, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 41,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(223, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(13, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(223, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(13, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 42,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(246, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(36, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(246, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(36, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 43,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(269, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(59, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(269, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(59, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 44,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(292, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(82, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(292, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(82, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 45,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(315, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(105, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(315, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(105, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 46,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(338, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(128, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(338, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(128, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 47,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(1, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(151, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(1, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(151, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 48,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(24, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(174, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(24, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(174, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 49,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(47, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(197, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(47, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(197, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 50,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(70, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(220, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(70, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(220, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 51,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(93, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(243, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(93, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(243, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 52,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(116, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(266, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(116, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(266, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 53,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(139, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(289, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(139, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(289, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 54,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(162, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(312, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(162, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(312, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 55,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(185, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(335, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(185, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(335, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 56,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(208, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(358, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(208, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(358, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 57,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(231, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(21, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(231, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(21, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Easy",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 58,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(254, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(44, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(254, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(44, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Medium",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 59,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(277, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(67, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(277, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(67, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Hard",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  },
+  {
+    "id": 60,
+    "type": "artwork",
+    "content": "<svg viewBox=\"0 0 200 200\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"200\" height=\"200\" fill=\"#050510\" />\n      <!-- Chaotic overlapping curves representing AI generated brush strokes -->\n      <path d=\"M10,190 C60,120 120,40 190,10\" fill=\"none\" stroke=\"hsl(300, 80%, 45%)\" stroke-width=\"8\" opacity=\"0.6\" />\n      <path d=\"M190,190 C120,120 60,40 10,10\" fill=\"none\" stroke=\"hsl(90, 80%, 45%)\" stroke-width=\"6\" opacity=\"0.6\" />\n      <path d=\"M30,100 Q100,20 170,100 T10,150\" fill=\"none\" stroke=\"#00f2fe\" stroke-width=\"3\" opacity=\"0.8\" />\n      \n      <!-- Inconsistent light sources and chaotic splotches -->\n      <circle cx=\"70\" cy=\"60\" r=\"30\" fill=\"hsl(300, 80%, 45%)\" filter=\"blur(8px)\" opacity=\"0.5\" />\n      <circle cx=\"130\" cy=\"140\" r=\"25\" fill=\"#fff\" filter=\"blur(15px)\" opacity=\"0.4\" />\n      \n      <!-- AI artifact: weird floating geometrical shape that doesn't fit the composition -->\n      <polygon points=\"50,120 80,110 70,140 40,135\" fill=\"hsl(90, 80%, 45%)\" opacity=\"0.5\" />\n      <path d=\"M110,60 L140,80 L120,95 Z\" fill=\"#00ffcc\" opacity=\"0.5\" />\n    </svg>",
+    "answer": "AI",
+    "difficulty": "Expert",
+    "hint": "Look at the random floating polygons that conflict with the brush stroke style.",
+    "explanation": "The canvas shows a mixture of styles, inconsistent lighting, and geometric anomalies like floating shapes over organic patterns, highlighting AI generation.",
+    "fact": "AI models often merge vector elements and painterly styles in nonsensical ways because they do not understand physical mediums."
+  }
+]
