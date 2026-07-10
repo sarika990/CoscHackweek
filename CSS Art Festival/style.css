@@ -1,0 +1,1178 @@
+/* ==========================================================================
+   CSS ART FESTIVAL - STITCH SHOWCASE
+   Designed & Hand-Coded by experienced frontend developers.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design System & CSS Variables
+   -------------------------------------------------------------------------- */
+:root {
+  /* Typography */
+  --font-primary: 'Outfit', sans-serif;
+  --font-secondary: 'Space Grotesk', sans-serif;
+
+  /* Theme Colors (Modern Dark Tech / Neon Palette) */
+  --color-bg: #0b0f19;
+  --color-surface: rgba(255, 255, 255, 0.03);
+  --color-surface-hover: rgba(255, 255, 255, 0.07);
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text-primary: #f3f4f6;
+  --color-text-secondary: #9ca3af;
+  
+  /* Accent Colors */
+  --color-primary: #3b82f6;
+  --color-primary-glow: rgba(59, 130, 246, 0.5);
+  --color-accent: #6366f1;
+  --color-accent-glow: rgba(99, 102, 241, 0.3);
+  --color-neon-pink: #ec4899;
+  --color-neon-cyan: #06b6d4;
+
+  /* Stitch Specific Palette */
+  --stitch-skin: #2b7cf0;
+  --stitch-skin-dark: #1b5cb5;
+  --stitch-skin-light: #4c94f6;
+  --stitch-belly: #a9dbfc;
+  --stitch-ear-inner: #fca5a5;
+  --stitch-ear-inner-dark: #f87171;
+  --stitch-eye-patch: #1a4f8f;
+  --stitch-eye-pupil: #0a111a;
+  --stitch-nose: #1f3657;
+  --stitch-tongue: #f472b6;
+  --stitch-mouth-dark: #31111d;
+  
+  /* Transitions */
+  --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.2s ease;
+}
+
+/* --------------------------------------------------------------------------
+   2. Reset & Global Styles
+   -------------------------------------------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-primary);
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Background Glowing Orbs */
+.bg-glow {
+  position: fixed;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(140px);
+  pointer-events: none;
+  opacity: 0.45;
+}
+
+.bg-glow-1 {
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, var(--color-primary-glow) 0%, transparent 70%);
+  top: -20vw;
+  right: -10vw;
+}
+
+.bg-glow-2 {
+  width: 60vw;
+  height: 60vw;
+  background: radial-gradient(circle, var(--color-accent-glow) 0%, transparent 70%);
+  bottom: -20vw;
+  left: -20vw;
+}
+
+/* --------------------------------------------------------------------------
+   3. Typography & Utility Classes
+   -------------------------------------------------------------------------- */
+h1, h2, h3, h4 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition-fast);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-neon-cyan) 0%, var(--color-primary) 50%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 9999px;
+  color: var(--color-neon-cyan);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+/* --------------------------------------------------------------------------
+   4. Buttons & Components
+   -------------------------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  border: 1px solid transparent;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5);
+}
+
+.btn-secondary {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  border-color: var(--color-border);
+}
+
+.btn-secondary:hover {
+  background: var(--color-surface-hover);
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+}
+
+/* Glassmorphism Containers */
+.glass-panel {
+  background: var(--color-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+  border-radius: 24px;
+}
+
+/* --------------------------------------------------------------------------
+   5. Header & Navigation
+   -------------------------------------------------------------------------- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 15, 25, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-icon {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--color-primary);
+}
+
+.logo-text {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.nav-link:hover {
+  color: var(--color-text-primary);
+}
+
+/* --------------------------------------------------------------------------
+   6. Hero Section & Layout
+   -------------------------------------------------------------------------- */
+.hero-section {
+  padding: 6rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-title {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 2.5rem;
+  max-width: 540px;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Art Frame & Showcase */
+.hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-frame {
+  width: 100%;
+  max-width: 440px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  padding: 1.5rem;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  position: relative;
+}
+
+.art-frame-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 0.75rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot-red { background-color: #ef4444; }
+.dot-yellow { background-color: #f59e0b; }
+.dot-green { background-color: #10b981; }
+
+.frame-title {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  font-family: var(--font-secondary);
+}
+
+.art-container {
+  height: 380px;
+  background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.art-shadow {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 10%;
+  right: 10%;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  filter: blur(8px);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* --------------------------------------------------------------------------
+   7. STITCH CSS ARTWORK CODE
+   -------------------------------------------------------------------------- */
+.stitch-wrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transform: translateY(10px);
+}
+
+/* Stitch breathing animation */
+.stitch {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: stitch-breathing 4s ease-in-out infinite;
+}
+
+/* --- Ears --- */
+.ears {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.ear {
+  position: absolute;
+  width: 75px;
+  height: 160px;
+  background: var(--stitch-skin);
+  box-shadow: inset -10px -5px 15px rgba(0, 0, 0, 0.15);
+  top: 15px;
+  transition: var(--transition-smooth);
+}
+
+.ear.left {
+  left: -20px;
+  border-radius: 10% 90% 10% 90% / 10% 90% 10% 90%;
+  transform: rotate(-40deg);
+  transform-origin: bottom right;
+  animation: left-ear-wiggle 6s ease-in-out infinite;
+}
+
+.ear.right {
+  right: -20px;
+  border-radius: 90% 10% 90% 10% / 90% 10% 90% 10%;
+  transform: rotate(40deg);
+  transform-origin: bottom left;
+  animation: right-ear-wiggle 6s ease-in-out infinite;
+}
+
+/* Ear inner cuts */
+.ear-inner {
+  position: absolute;
+  width: 75%;
+  height: 85%;
+  background: linear-gradient(180deg, var(--stitch-ear-inner) 0%, var(--stitch-ear-inner-dark) 100%);
+  top: 8%;
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left .ear-inner {
+  left: 15%;
+  border-radius: 10% 90% 10% 90% / 10% 90% 10% 90%;
+}
+
+.right .ear-inner {
+  right: 15%;
+  border-radius: 90% 10% 90% 10% / 90% 10% 90% 10%;
+}
+
+/* Ear Notches / Cuts (Stitch's characteristic ear cuts) */
+.ear-notch-1, .ear-notch-2 {
+  position: absolute;
+  background: #1e293b; /* Match art container background to look like a cut */
+}
+
+/* Left ear notches */
+.left .ear-notch-1 {
+  width: 15px;
+  height: 25px;
+  border-radius: 50%;
+  left: -6px;
+  top: 45px;
+  transform: rotate(20deg);
+}
+
+.left .ear-notch-2 {
+  width: 10px;
+  height: 18px;
+  border-radius: 50%;
+  left: -4px;
+  top: 95px;
+  transform: rotate(-10deg);
+}
+
+/* Right ear notches */
+.right .ear-notch-1 {
+  width: 15px;
+  height: 25px;
+  border-radius: 50%;
+  right: -6px;
+  top: 45px;
+  transform: rotate(-20deg);
+}
+
+.right .ear-notch-2 {
+  width: 10px;
+  height: 18px;
+  border-radius: 50%;
+  right: -4px;
+  top: 95px;
+  transform: rotate(10deg);
+}
+
+/* --- Body --- */
+.body-container {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.stitch-body {
+  position: relative;
+  width: 120px;
+  height: 100px;
+  background-color: var(--stitch-skin-dark);
+  border-radius: 50% 50% 40% 40% / 60% 60% 40% 40%;
+  box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.stitch-belly {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 65px;
+  background-color: var(--stitch-belly);
+  border-radius: 50% 50% 30% 30% / 70% 70% 30% 30%;
+  box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Head --- */
+.stitch-head {
+  position: absolute;
+  width: 190px;
+  height: 135px;
+  background-color: var(--stitch-skin);
+  border-radius: 53% 53% 45% 45% / 65% 65% 35% 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60px;
+  z-index: 5;
+  box-shadow: 
+    0 8px 16px rgba(0, 0, 0, 0.25), 
+    inset 0 6px 12px var(--stitch-skin-light),
+    inset 0 -8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Hair Tuft */
+.hair-tuft {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid var(--stitch-skin);
+  z-index: 6;
+}
+
+.hair-tuft::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 4px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid var(--stitch-skin);
+  transform: rotate(-25deg);
+}
+
+.hair-tuft::after {
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 4px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid var(--stitch-skin);
+  transform: rotate(25deg);
+}
+
+/* --- Eyes & Eye Patches --- */
+.eyes {
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  z-index: 7;
+}
+
+.eye {
+  position: relative;
+  width: 58px;
+  height: 52px;
+  background-color: var(--stitch-eye-patch);
+  border-radius: 50% 50% 45% 45% / 55% 55% 45% 45%;
+  overflow: hidden;
+  box-shadow: inset 0 -3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.eye.left-eye {
+  transform: rotate(-12deg);
+}
+
+.eye.right-eye {
+  transform: rotate(12deg);
+}
+
+/* Pupil */
+.eye-pupil {
+  position: absolute;
+  width: 32px;
+  height: 38px;
+  background-color: var(--stitch-eye-pupil);
+  border-radius: 50%;
+  bottom: 4px;
+  animation: stitch-blink 5s infinite;
+}
+
+.left-eye .eye-pupil {
+  right: 6px;
+  transform: rotate(6deg);
+}
+
+.right-eye .eye-pupil {
+  left: 6px;
+  transform: rotate(-6deg);
+}
+
+/* Light reflections in pupils */
+.eye-reflection-1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 8px;
+  left: 10px;
+}
+
+.eye-reflection-2 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 8px;
+}
+
+/* --- Nose --- */
+.stitch-nose {
+  position: absolute;
+  width: 38px;
+  height: 26px;
+  background-color: var(--stitch-nose);
+  border-radius: 50% 50% 40% 40% / 60% 60% 40% 40%;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 8;
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.15),
+    inset 0 3px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* --- Mouth --- */
+.stitch-mouth {
+  position: absolute;
+  width: 106px;
+  height: 48px;
+  background-color: var(--stitch-mouth-dark);
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10% 10% 90% 90% / 10% 10% 90% 90%;
+  z-index: 6;
+  overflow: hidden;
+  box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.mouth-inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.tongue {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: var(--stitch-tongue);
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Teeth details */
+.teeth {
+  position: absolute;
+  display: flex;
+  width: 100%;
+}
+
+.teeth-top {
+  top: 0;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.teeth-bottom {
+  bottom: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tooth {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.teeth-top .tooth {
+  border-top: 10px solid #fff;
+  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.2));
+}
+
+.teeth-bottom .tooth {
+  border-bottom: 8px solid #fff;
+  transform: translateY(-8px);
+}
+
+/* --- Limbs --- */
+.legs {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px;
+  z-index: 1;
+}
+
+.leg {
+  width: 48px;
+  height: 48px;
+  background-color: var(--stitch-skin-dark);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.toes {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  position: absolute;
+  bottom: -4px;
+  width: 100%;
+}
+
+.toe {
+  width: 10px;
+  height: 14px;
+  background-color: var(--stitch-skin);
+  border-radius: 50% 50% 20% 20%;
+  position: relative;
+}
+
+.toe::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 6px;
+  background-color: #0b0f19;
+  bottom: -2px;
+  left: 3px;
+  border-radius: 50%;
+}
+
+.arms {
+  position: absolute;
+  width: 100%;
+  top: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  z-index: 4;
+}
+
+.arm {
+  width: 32px;
+  height: 65px;
+  background-color: var(--stitch-skin);
+  border-radius: 20px;
+  position: relative;
+}
+
+.left-arm {
+  transform: rotate(35deg);
+  box-shadow: inset 5px 0 8px rgba(255, 255, 255, 0.15);
+}
+
+.right-arm {
+  transform: rotate(-35deg);
+  box-shadow: inset -5px 0 8px rgba(255, 255, 255, 0.15);
+}
+
+.claws {
+  position: absolute;
+  bottom: -8px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.claw {
+  width: 6px;
+  height: 10px;
+  background-color: #0b0f19;
+  border-radius: 50%;
+  margin: 0 -1px;
+}
+
+/* --------------------------------------------------------------------------
+   8. Animation Keyframes
+   -------------------------------------------------------------------------- */
+@keyframes stitch-breathing {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-4px) scale(1.02);
+  }
+}
+
+@keyframes stitch-blink {
+  0%, 90%, 100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.05);
+  }
+}
+
+@keyframes left-ear-wiggle {
+  0%, 80%, 100% {
+    transform: rotate(-40deg);
+  }
+  85% {
+    transform: rotate(-48deg);
+  }
+  90% {
+    transform: rotate(-36deg);
+  }
+}
+
+@keyframes right-ear-wiggle {
+  0%, 75%, 100% {
+    transform: rotate(40deg);
+  }
+  80% {
+    transform: rotate(48deg);
+  }
+  85% {
+    transform: rotate(36deg);
+  }
+}
+
+/* Hover Interactivity on ears */
+.stitch-wrapper:hover .ear.left {
+  transform: rotate(-55deg);
+}
+
+.stitch-wrapper:hover .ear.right {
+  transform: rotate(55deg);
+}
+
+/* --------------------------------------------------------------------------
+   9. About Section
+   -------------------------------------------------------------------------- */
+.about-section {
+  padding: 8rem 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.section-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 9999px;
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.about-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 2.5rem;
+  transition: var(--transition-smooth);
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  background: var(--color-surface-hover);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.about-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  color: var(--color-text-secondary);
+}
+
+/* --------------------------------------------------------------------------
+   10. Features Section
+   -------------------------------------------------------------------------- */
+.features-section {
+  padding: 8rem 2rem;
+  background: rgba(255, 255, 255, 0.01);
+  border-top: 1px solid var(--color-border);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: var(--color-surface-hover);
+  border-color: var(--color-primary);
+}
+
+.feature-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-text-primary);
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   11. Artwork Showcase Section
+   -------------------------------------------------------------------------- */
+.showcase-section {
+  padding: 8rem 2rem;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.showcase-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 24px;
+  padding: 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.interactive-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.interactive-info ul {
+  list-style: none;
+  margin-bottom: 2.5rem;
+}
+
+.interactive-info li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+}
+
+.interactive-info strong {
+  color: var(--color-text-primary);
+}
+
+.showcase-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   12. Footer
+   -------------------------------------------------------------------------- */
+.app-footer {
+  padding: 4rem 2rem;
+  background: #070a12;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.footer-info {
+  text-align: right;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.footer-info p {
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: var(--color-neon-cyan);
+  font-weight: 600;
+}
+
+.footer-link {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   13. Responsive Media Queries
+   -------------------------------------------------------------------------- */
+
+/* Laptops / Smaller Desktops (under 1024px) */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  .hero-container {
+    gap: 2rem;
+  }
+  .about-grid {
+    gap: 1.5rem;
+  }
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablets (under 768px) */
+@media (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 3rem;
+  }
+  
+  .hero-content {
+    align-items: center;
+  }
+  
+  .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-cta {
+    justify-content: center;
+  }
+
+  .nav-menu {
+    display: none; /* Simplification for mobile menu toggle absence */
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .showcase-display {
+    padding: 2.5rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+}
+
+/* Mobile Phones (under 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Responsive Stitch scale down */
+  .stitch-wrapper {
+    transform: scale(0.8) translateY(0px);
+  }
+
+  .art-frame {
+    padding: 1rem;
+  }
+
+  .art-container {
+    height: 320px;
+  }
+}
