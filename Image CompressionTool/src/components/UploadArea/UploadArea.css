@@ -1,0 +1,117 @@
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(99, 102, 241, 0.3);
+  padding: 48px 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  min-height: 280px;
+}
+
+.upload-container:hover,
+.upload-container.focused {
+  border-color: var(--primary);
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.upload-container.drag-active {
+  border-color: var(--secondary);
+  background: rgba(14, 165, 233, 0.08);
+  transform: scale(1.02);
+  animation: pulseGlow 1.5s infinite ease-in-out;
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.upload-icon-wrapper {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--primary);
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.upload-container:hover .upload-icon-wrapper {
+  background: var(--primary);
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.upload-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.upload-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.upload-link {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.paste-hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: rgba(0, 0, 0, 0.04);
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+}
+
+[data-theme="dark"] .paste-hint {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+kbd {
+  background: rgba(99, 102, 241, 0.15);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-family: monospace;
+  font-size: 0.75rem;
+}
+
+.upload-formats {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.format-badge, .size-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 99px;
+  background: rgba(99, 102, 241, 0.08);
+  color: var(--text-secondary);
+  border: 1px solid var(--glass-border);
+}
+
+.size-badge {
+  background: rgba(14, 165, 233, 0.08);
+  color: var(--secondary);
+}

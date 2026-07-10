@@ -1,0 +1,118 @@
+.app-layout {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 32px 0;
+}
+
+/* Ambient glow graphics in background */
+.background-decor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.glow-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.12;
+}
+
+.gc-1 {
+  background: var(--primary);
+  width: 500px;
+  height: 500px;
+  top: -10%;
+  left: -10%;
+}
+
+.gc-2 {
+  background: var(--accent);
+  width: 450px;
+  height: 450px;
+  bottom: -5%;
+  right: -5%;
+}
+
+[data-theme="dark"] .glow-circle {
+  opacity: 0.18;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.main-content {
+  min-height: calc(100vh - 220px);
+  width: 100%;
+}
+
+/* Upload View Structure */
+.upload-view-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+  .upload-view-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.empty-state-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Workspace Layout Structure */
+.workspace-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.previews-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .previews-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interactive-section {
+  width: 100%;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sidebar-column, .metrics-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

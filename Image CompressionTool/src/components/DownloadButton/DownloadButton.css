@@ -1,0 +1,99 @@
+.download-config-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.download-config-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 12px;
+}
+
+.download-config-icon {
+  color: var(--primary);
+}
+
+.download-config-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.download-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filename-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.filename-input {
+  width: 100%;
+  padding: 12px 64px 12px 16px;
+  background: rgba(99, 102, 241, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  outline: none;
+  transition: var(--transition);
+}
+
+.filename-input:focus {
+  border-color: var(--primary);
+  background: rgba(99, 102, 241, 0.06);
+}
+
+.file-ext-badge {
+  position: absolute;
+  right: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-glow);
+  padding: 4px 8px;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.security-guarantee {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.security-icon {
+  color: var(--success);
+}
+
+.main-download-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+}
