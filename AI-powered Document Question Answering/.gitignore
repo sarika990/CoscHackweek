@@ -1,0 +1,29 @@
+# Python system & compilation files
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Vector database & uploaded files local directories
+backend/uploads/*
+backend/vectors/*
+backend/logs/*
+!backend/uploads/.gitkeep
+!backend/vectors/.gitkeep
+!backend/logs/.gitkeep
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Logs and databases
+*.log
+local_db.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
