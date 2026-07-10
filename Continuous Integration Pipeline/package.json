@@ -1,0 +1,41 @@
+{
+  "name": "ci-github-actions",
+  "version": "1.0.0",
+  "description": "Continuous Integration Pipeline with GitHub Actions",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --passWithNoTests",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --passWithNoTests",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "build": "node -e \"console.log('Build step completed successfully (No compilation required for ES Modules)')\"",
+    "audit": "npm audit --audit-level=high"
+  },
+  "keywords": [
+    "ci",
+    "github-actions",
+    "express",
+    "jest",
+    "eslint",
+    "prettier"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^28.6.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2",
+    "supertest": "^7.0.0"
+  }
+}
