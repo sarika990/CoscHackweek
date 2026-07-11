@@ -1,158 +1,109 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-  Globe, MousePointer, FormInput, Table, Camera, FileDown, Search, Navigation,
-  RefreshCw, AlertCircle, CheckCircle, Zap, Brain, FileText, MessageSquare,
-  BarChart2, Layers, Database
-} from 'lucide-react';
+import { Globe, MousePointer, FormInput, Table, Camera, FileDown, Search, RefreshCw, AlertCircle, Navigation, Zap, Brain, FileText, MessageSquare, BarChart2, Layers, CheckCircle2 } from 'lucide-react';
 
-const features = [
-  {
-    icon: Globe,
-    title: 'Open & Navigate Websites',
-    desc: 'Launches Chromium, opens URLs, handles redirects and navigation dynamically.'
-  },
-  {
-    icon: MousePointer,
-    title: 'Click Buttons & Links',
-    desc: 'Identifies interactive elements via selectors and clicks them with retry logic.'
-  },
-  {
-    icon: FormInput,
-    title: 'Fill Forms',
-    desc: 'Detects text, email, password, dropdown, and checkbox fields and fills them.'
-  },
-  {
-    icon: Search,
-    title: 'Search Websites',
-    desc: 'Automates searches on Google, YouTube, GitHub, News, and more.'
-  },
-  {
-    icon: Table,
-    title: 'Extract Tables & Text',
-    desc: 'Scrapes structured data from HTML tables, lists, and paragraphs precisely.'
-  },
-  {
-    icon: Camera,
-    title: 'Take Screenshots',
-    desc: 'Captures full-page or element-specific screenshots and saves them as assets.'
-  },
-  {
-    icon: FileDown,
-    title: 'Download Files',
-    desc: 'Monitors download events and retrieves files to the data directory.'
-  },
-  {
-    icon: Navigation,
-    title: 'Handle Pagination',
-    desc: 'Automatically follows next-page links and traverses multi-page results.'
-  },
-  {
-    icon: AlertCircle,
-    title: 'Handle Popups & Cookies',
-    desc: 'Dismisses cookie banners, modal popups, and overlays before proceeding.'
-  },
-  {
-    icon: RefreshCw,
-    title: 'Retry Failed Actions',
-    desc: 'Detects timeout errors and retries page loads and element interactions.'
-  },
+const browserFeatures = [
+  { icon: Globe,        title: 'Open & Navigate',     desc: 'Launches URLs, handles redirects, SPA navigation' },
+  { icon: MousePointer, title: 'Click Elements',       desc: 'Buttons, links, dropdowns via smart selectors' },
+  { icon: FormInput,    title: 'Fill Forms',           desc: 'Text, email, password, select, and checkbox fields' },
+  { icon: Search,       title: 'Site Search',          desc: 'Google, YouTube, GitHub, News, and more' },
+  { icon: Table,        title: 'Extract Data',         desc: 'Tables, lists, paragraphs — structured output' },
+  { icon: Camera,       title: 'Screenshots',          desc: 'Full-page captures saved and served as assets' },
+  { icon: FileDown,     title: 'Downloads',            desc: 'Triggered download events captured to storage' },
+  { icon: Navigation,   title: 'Pagination',           desc: 'Follows next-page links across multi-page results' },
+  { icon: AlertCircle,  title: 'Popups & Cookies',     desc: 'Auto-dismisses consent banners and overlays' },
+  { icon: RefreshCw,    title: 'Retry Logic',          desc: 'Recovers from timeouts and transient failures' },
 ];
 
 const aiFeatures = [
-  { icon: Brain, title: 'Task Planning', desc: 'Gemini breaks tasks into logical browser steps before executing anything.' },
-  { icon: MessageSquare, title: 'Natural Language Input', desc: 'Understands instructions in plain English with no technical syntax required.' },
-  { icon: Zap, title: 'Multi-Step Execution', desc: 'Chains complex browser actions across multiple pages and states.' },
-  { icon: FileText, title: 'Report Generation', desc: 'Writes structured result reports with summaries, data, and screenshots.' },
-  { icon: BarChart2, title: 'Execution Analytics', desc: 'Tracks success rate, task duration, and activity timelines.' },
-  { icon: Layers, title: 'Conversation History', desc: 'Stores all past runs for review, filtering, and re-execution.' },
+  { icon: Brain,        title: 'Task Planning',       desc: 'Breaks your request into ordered browser actions' },
+  { icon: MessageSquare,title: 'Natural Language',    desc: 'Understands plain English — no selectors needed' },
+  { icon: Zap,          title: 'Multi-step Chains',   desc: 'Executes complex multi-page workflows automatically' },
+  { icon: FileText,     title: 'Report Generation',   desc: 'Produces structured JSON results + AI summaries' },
+  { icon: BarChart2,    title: 'Analytics Tracking',  desc: 'Records duration, success rate, and step counts' },
+  { icon: Layers,       title: 'History Storage',     desc: 'Persists all runs for review and re-execution' },
 ];
+
+const supportedTasks = [
+  'Google Search & Summarize', 'Google News Briefing', 'YouTube Video Search',
+  'GitHub Repository Discovery', 'Internship & Job Finder', 'Scholarship Lookup',
+  'Price Comparison', 'Wikipedia Article Summary', 'Website Content Summary',
+  'Demo Form Filling', 'Documentation Search', 'General AI-Guided Research',
+];
+
+function FeatureCard({ icon: Icon, title, desc }) {
+  return (
+    <div className="glass-card glass-card-hover rounded-2xl p-5 flex gap-4">
+      <div className="shrink-0 p-2.5 w-fit h-fit rounded-xl bg-accent/10 border border-accent/20 text-accent">
+        <Icon className="h-4.5 w-4.5" />
+      </div>
+      <div>
+        <p className="text-sm font-semibold text-text-primary mb-1">{title}</p>
+        <p className="text-xs text-text-muted leading-relaxed">{desc}</p>
+      </div>
+    </div>
+  );
+}
 
 export default function Features() {
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8 space-y-16 animate-fade-in">
+    <div className="max-w-6xl mx-auto py-12 px-4 sm:px-6 space-y-14 animate-fade-in">
       {/* Header */}
       <div className="text-center space-y-4">
-        <h1 className="text-3xl sm:text-5xl font-extrabold font-heading">
-          <span className="bg-gradient-to-r from-emerald-400 to-green-300 bg-clip-text text-transparent">
-            Platform Capabilities
+        <h1 className="text-3xl sm:text-5xl font-heading font-black text-text-primary">
+          Platform{' '}
+          <span className="bg-gradient-to-r from-accent to-accent-bright bg-clip-text text-transparent">
+            Capabilities
           </span>
         </h1>
-        <p className="max-w-2xl mx-auto text-emerald-400/70 sm:text-base leading-relaxed">
-          A complete list of actions BrowserPilot AI can perform autonomously via its Playwright + Gemini integration layer.
+        <p className="max-w-2xl mx-auto text-text-muted text-sm sm:text-base leading-relaxed">
+          Every action BrowserPilot AI can perform autonomously via Playwright + Gemini.
         </p>
       </div>
 
-      {/* Browser Agent Features */}
-      <div>
-        <h2 className="text-xl font-bold text-emerald-300 mb-6 font-heading flex items-center gap-2">
-          <Globe className="h-5 w-5" /> Browser Automation Engine
+      {/* Browser Automation */}
+      <section>
+        <h2 className="text-lg font-heading font-bold text-text-secondary mb-5 flex items-center gap-2">
+          <Globe className="h-5 w-5 text-accent" /> Browser Automation Engine
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {features.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="glass-panel glass-panel-hover rounded-2xl p-5 flex gap-4">
-              <div className="shrink-0 p-2.5 w-fit h-fit rounded-lg bg-emerald-900/30 border border-emerald-500/20 text-neonGreen">
-                <Icon className="h-5 w-5" />
-              </div>
-              <div>
-                <p className="font-semibold text-sm text-white mb-1">{title}</p>
-                <p className="text-xs text-emerald-400/70 leading-relaxed">{desc}</p>
-              </div>
-            </div>
-          ))}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {browserFeatures.map(f => <FeatureCard key={f.title} {...f} />)}
         </div>
-      </div>
+      </section>
 
-      {/* AI Features */}
-      <div>
-        <h2 className="text-xl font-bold text-emerald-300 mb-6 font-heading flex items-center gap-2">
-          <Brain className="h-5 w-5" /> Gemini AI Intelligence Layer
+      {/* AI Layer */}
+      <section>
+        <h2 className="text-lg font-heading font-bold text-text-secondary mb-5 flex items-center gap-2">
+          <Brain className="h-5 w-5 text-accent" /> Gemini AI Intelligence Layer
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {aiFeatures.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="glass-panel glass-panel-hover rounded-2xl p-5 flex gap-4">
-              <div className="shrink-0 p-2.5 w-fit h-fit rounded-lg bg-emerald-900/30 border border-emerald-500/20 text-neonGreen">
-                <Icon className="h-5 w-5" />
-              </div>
-              <div>
-                <p className="font-semibold text-sm text-white mb-1">{title}</p>
-                <p className="text-xs text-emerald-400/70 leading-relaxed">{desc}</p>
-              </div>
-            </div>
-          ))}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {aiFeatures.map(f => <FeatureCard key={f.title} {...f} />)}
         </div>
-      </div>
+      </section>
 
       {/* Supported Tasks */}
-      <div className="glass-panel rounded-2xl p-6 sm:p-8 liquid-blur">
-        <h2 className="text-xl font-bold text-emerald-300 mb-6 font-heading flex items-center gap-2">
-          <Database className="h-5 w-5" /> Supported Task Types
+      <section className="glass-card rounded-2xl p-7 blob-bg">
+        <h2 className="text-lg font-heading font-bold text-text-secondary mb-5 flex items-center gap-2">
+          <Layers className="h-5 w-5 text-accent" /> Supported Task Types
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {[
-            'Google Search & Summarize', 'Google News Search', 'YouTube Video Search',
-            'GitHub Repository Discovery', 'Python Internship Search', 'College Information Search',
-            'Scholarship Finder', 'Online Course Search', 'Documentation Lookup',
-            'Price Comparison', 'Demo Form Filling', 'Dummy Appointment Booking',
-            'Website Content Extraction', 'Website Summary & Report'
-          ].map((task) => (
-            <div key={task} className="flex items-center gap-2 text-sm text-emerald-300">
-              <CheckCircle className="h-4 w-4 text-neonGreen shrink-0" />
+          {supportedTasks.map(task => (
+            <div key={task} className="flex items-center gap-2.5 text-sm text-text-secondary">
+              <CheckCircle2 className="h-4 w-4 text-accent shrink-0" />
               <span>{task}</span>
             </div>
           ))}
         </div>
-      </div>
+      </section>
 
       {/* CTA */}
       <div className="text-center space-y-4">
-        <p className="text-emerald-400/60 text-sm">Ready to automate your first task?</p>
+        <p className="text-text-muted text-sm">Start automating now — no setup required.</p>
         <Link
           to="/dashboard"
-          className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-neonGreen hover:bg-emerald-500 text-emerald-950 font-bold shadow-neon-strong transition-all duration-300 hover:scale-105"
+          className="btn-primary inline-flex items-center gap-2 px-8 py-3.5 rounded-xl text-sm font-bold"
         >
-          <Zap className="h-4 w-4 fill-current" />
-          Open Dashboard
+          <Zap className="h-4.5 w-4.5" /> Open Dashboard
         </Link>
       </div>
     </div>

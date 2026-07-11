@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/layouts/Navbar';
@@ -15,30 +15,31 @@ function AppLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
 
-  // Close sidebar on navigation
-  React.useEffect(() => {
+  // Auto-close sidebar on route change (mobile)
+  useEffect(() => {
     setSidebarOpen(false);
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex flex-col text-white" style={{ fontFamily: "'Inter', sans-serif" }}>
-      <Navbar onToggleSidebar={() => setSidebarOpen(prev => !prev)} />
+    <div className="min-h-screen flex flex-col" style={{ background: 'var(--color-bg-primary)' }}>
+      <Navbar
+        onToggleSidebar={() => setSidebarOpen(p => !p)}
+        sidebarOpen={sidebarOpen}
+      />
 
       <div className="flex flex-1 overflow-hidden">
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-        <main className="flex-1 overflow-y-auto">
-          <div className="min-h-full py-2 sm:py-4">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/features" element={<Features />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/history" element={<TaskHistory />} />
-              <Route path="/settings" element={<Settings />} />
-              <Route path="/about" element={<About />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </div>
+        <main className="flex-1 overflow-y-auto overflow-x-hidden">
+          <Routes>
+            <Route path="/"          element={<Home />} />
+            <Route path="/features"  element={<Features />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/history"   element={<TaskHistory />} />
+            <Route path="/settings"  element={<Settings />} />
+            <Route path="/about"     element={<About />} />
+            <Route path="*"          element={<NotFound />} />
+          </Routes>
         </main>
       </div>
     </div>

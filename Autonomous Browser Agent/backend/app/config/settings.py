@@ -11,12 +11,15 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), ".env"),
         env_file_encoding="utf-8",
-        extra="ignore"
+        extra="ignore",
     )
 
-settings = Settings()
+    def model_post_init(self, __context):
+        # Strip any accidental whitespace from API key
+        object.__setattr__(self, 'GEMINI_API_KEY', self.GEMINI_API_KEY.strip())
+        # Ensure data directories exist
+        os.makedirs(self.DATA_DIR, exist_ok=True)
+        os.makedirs(os.path.join(self.DATA_DIR, "screenshots"), exist_ok=True)
+        os.makedirs(os.path.join(self.DATA_DIR, "downloads"), exist_ok=True)
 
-# Ensure directories exist
-os.makedirs(settings.DATA_DIR, exist_ok=True)
-os.makedirs(os.path.join(settings.DATA_DIR, "screenshots"), exist_ok=True)
-os.makedirs(os.path.join(settings.DATA_DIR, "downloads"), exist_ok=True)
+settings = Settings()

@@ -1,1 +1,692 @@
-{}
+{
+  "0a105c1a-2b9f-4a86-86ed-010aee909dae": {
+    "id": "0a105c1a-2b9f-4a86-86ed-010aee909dae",
+    "task": "Search Python internships in Lucknow",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 12:57:21",
+    "completed_at": "2026-07-11 12:57:21",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 12:57:21",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[12:57:21] Gemini API Client initialized successfully.",
+      "[12:57:21] Starting task: Search Python internships in Lucknow",
+      "[12:57:21] Fatal error during execution: "
+    ]
+  },
+  "0f1dd171-c46e-4a30-bda4-56365ff2c1a8": {
+    "id": "0f1dd171-c46e-4a30-bda4-56365ff2c1a8",
+    "task": "Find scholarships for B.Tech students in India",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 12:57:45",
+    "completed_at": "2026-07-11 12:57:45",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 12:57:45",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[12:57:45] Gemini API Client initialized successfully.",
+      "[12:57:45] Starting task: Find scholarships for B.Tech students in India",
+      "[12:57:45] Fatal error during execution: "
+    ]
+  },
+  "cfc87062-89a3-4f06-9f5e-31b5902c8ed1": {
+    "id": "cfc87062-89a3-4f06-9f5e-31b5902c8ed1",
+    "task": "Search YouTube tutorials for machine learning",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:08:29",
+    "completed_at": "2026-07-11 13:08:29",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:08:29",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:08:29] Gemini API Client initialized successfully.",
+      "[13:08:29] Starting task: Search YouTube tutorials for machine learning",
+      "[13:08:29] Fatal error during execution: "
+    ]
+  },
+  "6ef1b455-5238-451f-90ee-61f0d4c308d1": {
+    "id": "6ef1b455-5238-451f-90ee-61f0d4c308d1",
+    "task": "Find scholarships for B.Tech students in India",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:08:42",
+    "completed_at": "2026-07-11 13:08:42",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:08:42",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:08:42] Gemini API Client initialized successfully.",
+      "[13:08:42] Starting task: Find scholarships for B.Tech students in India",
+      "[13:08:42] Fatal error during execution: "
+    ]
+  },
+  "bed3bd25-72d8-4897-87ba-c6bb92c7ad92": {
+    "id": "bed3bd25-72d8-4897-87ba-c6bb92c7ad92",
+    "task": "Search Python internships in Lucknow",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:09:32",
+    "completed_at": "2026-07-11 13:09:32",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:09:32",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:09:32] Gemini API Client initialized successfully.",
+      "[13:09:32] Starting task: Search Python internships in Lucknow",
+      "[13:09:32] Fatal error during execution: "
+    ]
+  },
+  "c187660f-1a2d-41b9-97e8-5519c8b1ca62": {
+    "id": "c187660f-1a2d-41b9-97e8-5519c8b1ca62",
+    "task": "hello",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:09:47",
+    "completed_at": "2026-07-11 13:09:47",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:09:47",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:09:47] Gemini API Client initialized successfully.",
+      "[13:09:47] Starting task: hello",
+      "[13:09:47] Fatal error during execution: "
+    ]
+  },
+  "79d4d192-299e-4fa7-a69c-5ba8fd42d0d5": {
+    "id": "79d4d192-299e-4fa7-a69c-5ba8fd42d0d5",
+    "task": "Search YouTube tutorials for machine learning",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:12:46",
+    "completed_at": "2026-07-11 13:12:46",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:12:46",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:12:46] Gemini API Client initialized successfully.",
+      "[13:12:46] Starting task: Search YouTube tutorials for machine learning",
+      "[13:12:46] Fatal error during execution: "
+    ]
+  },
+  "ffc4f803-33cb-4dd7-aee0-4b2b8b45a135": {
+    "id": "ffc4f803-33cb-4dd7-aee0-4b2b8b45a135",
+    "task": "Search YouTube tutorials for machine learning",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:13:44",
+    "completed_at": "2026-07-11 13:13:44",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:13:44",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:13:44] Gemini API Client initialized successfully.",
+      "[13:13:44] Starting task: Search YouTube tutorials for machine learning",
+      "[13:13:44] Fatal error during execution: "
+    ]
+  },
+  "b0586742-1e33-40bc-b9e3-f7094ac2395b": {
+    "id": "b0586742-1e33-40bc-b9e3-f7094ac2395b",
+    "task": "Search YouTube tutorials for machine learning",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 13:45:14",
+    "completed_at": "2026-07-11 13:45:14",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 13:45:14",
+        "action": "Initialize Agent",
+        "thought": "Launching Playwright browser context",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Execution failed due to a critical error.",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[13:45:14] Gemini API Client initialized successfully.",
+      "[13:45:14] Starting task: Search YouTube tutorials for machine learning",
+      "[13:45:14] Fatal error during execution: "
+    ]
+  },
+  "f5e0926d-2583-4c46-bf17-0b04d1b3c952": {
+    "id": "f5e0926d-2583-4c46-bf17-0b04d1b3c952",
+    "task": "Search YouTube tutorials for machine learning",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:14:49",
+    "completed_at": "2026-07-11 14:14:52",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 14:14:52",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Task failed: ",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[14:14:52] [SUCCESS] ✅ Gemini ready (gemini-flash-lite-latest)",
+      "[14:14:52] [INFO] 🚀 Starting task: Search YouTube tutorials for machine learning",
+      "[14:14:52] [ERROR] 💥 Fatal error: "
+    ]
+  },
+  "83190f67-09c4-44b1-ae50-8f8f0bb32b68": {
+    "id": "83190f67-09c4-44b1-ae50-8f8f0bb32b68",
+    "task": "Search Google News for AI developments today",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:15:22",
+    "completed_at": "2026-07-11 14:15:25",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 14:15:25",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Task failed: ",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[14:15:25] [SUCCESS] ✅ Gemini ready (gemini-flash-lite-latest)",
+      "[14:15:25] [INFO] 🚀 Starting task: Search Google News for AI developments today",
+      "[14:15:25] [ERROR] 💥 Fatal error: "
+    ]
+  },
+  "75fe0d46-54b9-4f06-a711-2636ae1bef9a": {
+    "id": "75fe0d46-54b9-4f06-a711-2636ae1bef9a",
+    "task": "hello",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:16:04",
+    "completed_at": "2026-07-11 14:16:07",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 14:16:07",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Task failed: ",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[14:16:07] [SUCCESS] ✅ Gemini ready (gemini-flash-lite-latest)",
+      "[14:16:07] [INFO] 🚀 Starting task: hello",
+      "[14:16:07] [ERROR] 💥 Fatal error: "
+    ]
+  },
+  "b8d291f7-b7a2-46fb-92fd-81f2e976de08": {
+    "id": "b8d291f7-b7a2-46fb-92fd-81f2e976de08",
+    "task": "Find scholarships for B.Tech students in India",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:17:13",
+    "completed_at": "2026-07-11 14:17:15",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 14:17:15",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Task failed: ",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[14:17:15] [SUCCESS] ✅ Gemini ready (gemini-flash-lite-latest)",
+      "[14:17:15] [INFO] 🚀 Starting task: Find scholarships for B.Tech students in India",
+      "[14:17:15] [ERROR] 💥 Fatal error: "
+    ]
+  },
+  "44b221c5-c75b-441f-85d0-670708a7fb17": {
+    "id": "44b221c5-c75b-441f-85d0-670708a7fb17",
+    "task": "Search Python internships in Lucknow",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:36:27",
+    "completed_at": "2026-07-11 14:36:29",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 14:36:29",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Task failed: ",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[14:36:29] [SUCCESS] ✅ Gemini ready (gemini-flash-lite-latest)",
+      "[14:36:29] [INFO] 🚀 Starting task: Search Python internships in Lucknow",
+      "[14:36:29] [ERROR] 💥 Fatal error: "
+    ]
+  },
+  "dfb2ff23-ea78-479e-a4a0-3e65edc0bf54": {
+    "id": "dfb2ff23-ea78-479e-a4a0-3e65edc0bf54",
+    "task": "Search GitHub repositories for React dashboard UI",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:36:50",
+    "completed_at": "2026-07-11 14:36:52",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 14:36:52",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": false,
+      "summary": "Task failed: ",
+      "extracted_data": null,
+      "error_message": "",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[14:36:52] [SUCCESS] ✅ Gemini ready (gemini-flash-lite-latest)",
+      "[14:36:52] [INFO] 🚀 Starting task: Search GitHub repositories for React dashboard UI",
+      "[14:36:52] [ERROR] 💥 Fatal error: "
+    ]
+  },
+  "974a96cc-35d6-4830-b155-37540e5554c5": {
+    "id": "974a96cc-35d6-4830-b155-37540e5554c5",
+    "task": "Search Python internships in Lucknow",
+    "status": "failed",
+    "progress": 100,
+    "created_at": "2026-07-11 14:56:12",
+    "completed_at": "2026-07-11 14:56:12",
+    "timeline": [],
+    "result": {
+      "success": false,
+      "summary": "Windows event loop configuration error",
+      "extracted_data": null,
+      "error_message": "CRITICAL: Event loop is _WindowsSelectorEventLoop - Playwright will fail! Policy: WindowsProactorEventLoopPolicy. Run.py must set WindowsProactorEventLoopPolicy before uvicorn.run().",
+      "files_downloaded": [],
+      "screenshot": null
+    },
+    "logs": [
+      "[ERROR] CRITICAL: Event loop is _WindowsSelectorEventLoop - Playwright will fail! Policy: WindowsProactorEventLoopPolicy. Run.py must set WindowsProactorEventLoopPolicy before uvicorn.run()."
+    ]
+  },
+  "02958893-1c51-441d-8b9a-22e870f1aa7d": {
+    "id": "02958893-1c51-441d-8b9a-22e870f1aa7d",
+    "task": "Search Python internships in Lucknow",
+    "status": "completed",
+    "progress": 100,
+    "created_at": "2026-07-11 15:07:44",
+    "completed_at": "2026-07-11 15:08:01",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 15:07:46",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:07:48",
+        "action": "Browser Ready",
+        "thought": "Chromium 125.0.6422.26 launched",
+        "status": "success",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:07:48",
+        "action": "Internship Search",
+        "thought": "Searching: 'Search Python internships in Lucknow'",
+        "status": "info",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:07:57",
+        "action": "Results Loaded",
+        "thought": "Parsing internship listings",
+        "status": "info",
+        "screenshot": "/static/screenshots/02958893-1c51-441d-8b9a-22e870f1aa7d_1783762677_internship_search.png"
+      }
+    ],
+    "result": {
+      "success": true,
+      "summary": "Hello! It’s great that you are looking to start your career in Python development. Lucknow has a growing tech ecosystem, and while many internships are now remote or hybrid, there are excellent ways to leverage your Python skills to secure a position.\n\nHere is an analysis of the opportunities you found and some actionable advice to help you land the role.\n\n### Top Recommendations for You\n\n1.  **If you want to focus on Web Development (Best for Beginners):**\n    *   **Role:** [Python Developer Intern (Internshala)](https://internshala.com/internships/python-internship)\n    *   **Why:** This is a perfect entry point. Learning **FastAPI** and **REST APIs** is highly marketable right now. The 2-3 month duration is ideal for a student, allowing you to get a \"foot in the door\" without a massive long-term commitment.\n2.  **If you want to focus on Career Growth & Scalability:**\n    *   **Role:** [Backend Engineering Intern (LinkedIn)](https://www.linkedin.com/jobs)\n    *   **Why:** Building **microservices** with **Django** is a high-level skill. Since it offers Remote/Hybrid options, this is likely your best bet for working with a company that might be based in a tech hub (like Bangalore or Gurgaon) while you stay in Lucknow.\n\n---\n\n### Actionable Advice to Stand Out\n\nSince you are applying for Python roles, here is how you can beat the competition:\n\n*   **Build a \"Proof of Work\" Portfolio:** Don't just send a resume. Create a GitHub repository that includes:\n    *   A sample REST API (using the FastAPI role description).\n    *   An ETL script (using the Data Engineering role description).\n    *   A README file explaining how to run your code. \n*   **Customize for the \"Lucknow Advantage\":** If you find local Lucknow-based tech companies, reach out to them on LinkedIn. Send a personalized note: *\"Hi [Name], I’m a student based in Lucknow and I’ve been following your company’s work. I’m currently proficient in Python/Django and would love to contribute as an intern.\"* Local firms value proactive, reachable candidates.\n*   **Bridge the Skills Gap:** \n    *   If you apply for the **AI/ML role**, make sure you can explain a simple project using Scikit-Learn.\n    *   If you apply for the **Data Engineering role**, practice your SQL joins. Employers often care more about your SQL proficiency than your Python logic in these specific roles.\n*   **Leverage LinkedIn Properly:** When applying for the LinkedIn listing, find the hiring manager or a senior engineer at that company and send a connection request. Simply applying through the portal is the bare minimum; networking increases your chances by 50%.\n\n### Next Steps Checklist\n1.  **Polish your Resume:** Ensure your Python projects are at the top, not just your coursework.\n2.  **Prepare for the Technical Interview:** Expect questions on data structures, Python decorators, and basic database management.\n3.  **Apply to 3-5 roles today:** Aim for a mix of the FastAPI role (for quick experience) and the Django role (for long-term career growth).\n\n**Would you like me to help you draft a cold-message template to send to recruiters for these roles?**",
+      "extracted_data": {
+        "query": "Search Python internships in Lucknow",
+        "internships": [
+          {
+            "role": "Python Developer Intern",
+            "link": "https://internshala.com/internships/python-internship",
+            "description": "Work on FastAPI, REST APIs, and automation scripts. 2-3 months, stipend offered."
+          },
+          {
+            "role": "Backend Engineering Intern (Python/Django)",
+            "link": "https://www.linkedin.com/jobs",
+            "description": "Build scalable microservices. Remote/Hybrid. 6-month engagement."
+          },
+          {
+            "role": "AI/ML Intern – Python",
+            "link": "https://www.naukri.com",
+            "description": "Implement ML pipelines using scikit-learn and TensorFlow."
+          },
+          {
+            "role": "Data Engineering Intern (Python + SQL)",
+            "link": "https://angel.co/jobs",
+            "description": "ETL pipelines, Pandas, PostgreSQL. Great learning opportunity."
+          }
+        ]
+      },
+      "error_message": null,
+      "files_downloaded": [],
+      "screenshot": "/static/screenshots/02958893-1c51-441d-8b9a-22e870f1aa7d_1783762677_internship_search.png"
+    },
+    "logs": [
+      "[15:07:46] [SUCCESS] Gemini ready (gemini-flash-lite-latest)",
+      "[15:07:46] [INFO] Starting task: Search Python internships in Lucknow",
+      "[15:07:48] [SUCCESS] Browser ready: Chromium 125.0.6422.26",
+      "[15:07:48] [INFO] Analyzing task intent...",
+      "[15:07:48] [INFO] Navigating to: https://www.google.com/search?q=Search+Python+internships+in+Lucknow&hl=en"
+    ]
+  },
+  "622239ce-7f96-411f-bf49-f06788cc642e": {
+    "id": "622239ce-7f96-411f-bf49-f06788cc642e",
+    "task": "Search YouTube tutorials for machine learning",
+    "status": "completed",
+    "progress": 100,
+    "created_at": "2026-07-11 15:09:28",
+    "completed_at": "2026-07-11 15:09:48",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 15:09:30",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:09:32",
+        "action": "Browser Ready",
+        "thought": "Chromium 125.0.6422.26 launched",
+        "status": "success",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:09:32",
+        "action": "YouTube Search",
+        "thought": "Searching YouTube for: 's for machine learning'",
+        "status": "info",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:09:44",
+        "action": "Results Loaded",
+        "thought": "Extracting video listings",
+        "status": "info",
+        "screenshot": "/static/screenshots/622239ce-7f96-411f-bf49-f06788cc642e_1783762783_youtube_results.png"
+      }
+    ],
+    "result": {
+      "success": true,
+      "summary": "As a YouTube content advisor, I have reviewed your search results. It appears your search query **\"s for machine learning\"** triggered results for the **\"Find-S Algorithm\"** (a fundamental concept in Machine Learning) as well as general ML course content.\n\nHere are my recommendations based on what you are likely trying to achieve:\n\n### 1. If you are specifically studying the \"Find-S Algorithm\"\n**Recommendation:** [FIND S Algorithm | Finding A Maximally Specific Hypothesis | Solved Example - 1 by Mahesh Huddar](https://www.youtube.com/watch?v=O6vwN74aSGY)\n\n*   **Why:** If your query was indeed looking for the \"S\" algorithm (Find-S), this is the most direct and accurate result. Mahesh Huddar is widely recognized in the academic community for breaking down complex university-level ML algorithms into easy-to-follow, step-by-step solved examples. It is perfect if you have an upcoming exam.\n\n---\n\n### 2. If you are a beginner looking to start from scratch\n**Recommendation:** [Complete Machine Learning Course for Beginners | Part 1- Foundation | Sheryians AI School](https://www.youtube.com/watch?v=1L420xXpDTg)\n\n*   **Why:** Sheryians AI School is currently trending for their high-quality, project-based teaching style. This video is excellent because it focuses on the **Foundations**. If you are new to the field, you shouldn't jump straight into advanced algorithms without understanding the underlying logic. Their production quality makes complex topics very digestible.\n\n---\n\n### 3. If you want a high-level overview or roadmap\n**Recommendation:** [The Complete Machine Learning Roadmap by Programming with Mosh](https://www.youtube.com/watch?v=7IgVGSaQPaw)\n\n*   **Why:** Before committing to a 60-hour course, watch Mosh’s roadmap. It gives you a bird's-eye view of what you actually need to learn (Mathematics, Python libraries, Algorithms, etc.). It helps you avoid the \"tutorial hell\" trap by showing you a clear path from beginner to advanced.\n\n---\n\n### Summary Advice for your Learning Path:\n1.  **Don't start with the 60-hour courses yet:** It is very easy to burn out. Start with the **Roadmap (Mosh)** to understand the scope.\n2.  **Verify your terminology:** If you were looking for the \"Find-S\" algorithm (common in college curriculums), stick to **Mahesh Huddar**. If you were just looking for general \"ML\" content, avoid searching for \"s for machine learning\" as the \"s\" is likely confusing the algorithm and the general subject. \n3.  **Language Preference:** If you are a Hindi speaker, **KnowledgeGATE** is highly respected for university exam preparation, whereas **Sheryians** is better for modern industry-ready coding skills. \n\n**Which one should you watch first?**\nIf you are currently enrolled in a college machine learning course, watch the **Mahesh Huddar** video. If you are learning this for career/hobby purposes, start with the **Programming with Mosh** roadmap.",
+      "extracted_data": {
+        "query": "s for machine learning",
+        "videos": [
+          {
+            "title": "Complete ML Machine Learning in one shot | Semester Exam | Hindi",
+            "url": "https://www.youtube.com/watch?v=2oGsCHlfBUg&pp=ygUWcyBmb3IgbWFjaGluZSBsZWFybmluZw%3D%3D",
+            "channel": "KnowledgeGATE by Sanchit Sir"
+          },
+          {
+            "title": "FIND S Algorithm | Finding A Maximally Specific Hypothesis | Solved Example - 1 by Mahesh Huddar",
+            "url": "https://www.youtube.com/watch?v=O6vwN74aSGY&pp=ygUWcyBmb3IgbWFjaGluZSBsZWFybmluZw%3D%3D",
+            "channel": "Mahesh Huddar"
+          },
+          {
+            "title": "Part 4 - Model Tuning, Ensemble & Unsupervised Learning | Full ML Course | Sheryians AI School",
+            "url": "https://www.youtube.com/watch?v=UFAHXZW2hU8&pp=ygUWcyBmb3IgbWFjaGluZSBsZWFybmluZw%3D%3D",
+            "channel": "Sheryians AI School"
+          },
+          {
+            "title": "The Complete Machine Learning Roadmap",
+            "url": "https://www.youtube.com/watch?v=7IgVGSaQPaw&pp=ygUWcyBmb3IgbWFjaGluZSBsZWFybmluZw%3D%3D",
+            "channel": "Programming with Mosh"
+          },
+          {
+            "title": "Complete Machine Learning Course in 60 Hours - Part 1 | Full Machine Learning Course with Python",
+            "url": "https://www.youtube.com/watch?v=LcWFedjaR4Q&pp=ygUWcyBmb3IgbWFjaGluZSBsZWFybmluZw%3D%3D",
+            "channel": "Siddhardhan"
+          },
+          {
+            "title": "Complete Machine Learning Course for Beginners | Part 1- Foundation | Sheryians AI School",
+            "url": "https://www.youtube.com/watch?v=1L420xXpDTg&pp=ygUWcyBmb3IgbWFjaGluZSBsZWFybmluZw%3D%3D",
+            "channel": "Sheryians AI School"
+          }
+        ]
+      },
+      "error_message": null,
+      "files_downloaded": [],
+      "screenshot": "/static/screenshots/622239ce-7f96-411f-bf49-f06788cc642e_1783762783_youtube_results.png"
+    },
+    "logs": [
+      "[15:09:30] [SUCCESS] Gemini ready (gemini-flash-lite-latest)",
+      "[15:09:30] [INFO] Starting task: Search YouTube tutorials for machine learning",
+      "[15:09:32] [SUCCESS] Browser ready: Chromium 125.0.6422.26",
+      "[15:09:32] [INFO] Analyzing task intent...",
+      "[15:09:32] [INFO] Navigating to: https://www.youtube.com/results?search_query=s+for+machine+learning"
+    ]
+  },
+  "e7060b2a-8f8b-4660-98f4-4e3bad16fd42": {
+    "id": "e7060b2a-8f8b-4660-98f4-4e3bad16fd42",
+    "task": "hello",
+    "status": "completed",
+    "progress": 100,
+    "created_at": "2026-07-11 15:11:02",
+    "completed_at": "2026-07-11 15:11:15",
+    "timeline": [
+      {
+        "timestamp": "2026-07-11 15:11:04",
+        "action": "Initialize",
+        "thought": "Launching Chromium browser instance",
+        "status": "info",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:11:06",
+        "action": "Browser Ready",
+        "thought": "Chromium 125.0.6422.26 launched",
+        "status": "success",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:11:06",
+        "action": "AI Planning",
+        "thought": "Asking Gemini to plan browser actions",
+        "status": "info",
+        "screenshot": null
+      },
+      {
+        "timestamp": "2026-07-11 15:11:07",
+        "action": "Navigate",
+        "thought": "Starting at https://www.google.com",
+        "status": "info",
+        "screenshot": null
+      }
+    ],
+    "result": {
+      "success": true,
+      "summary": "Hello! It looks like you have provided the underlying CSS and some snippet text from a Google search results page.\n\nBased on the content provided:\n\n*   **Google Features:** The page includes elements for \"Create images\" (which appears to be a featured button or prompt) and \"See more\" / \"Delete\" options, which are common in Google's search history or suggestion interface.\n*   **Interface Elements:** The CSS styles indicate a layout designed for a responsive search interface, featuring rounded buttons, hover effects, and search suggestions (as hinted by the `.sbhl` and `.sbai` classes, typically used for search bar autocomplete).\n\nIs there a specific question you have about Google, or were you looking for help with something else? Let me know how I can assist you further!",
+      "extracted_data": {
+        "url": "https://www.google.com/",
+        "title": "Google"
+      },
+      "error_message": null,
+      "files_downloaded": [],
+      "screenshot": "/static/screenshots/e7060b2a-8f8b-4660-98f4-4e3bad16fd42_1783762873_ai_general.png"
+    },
+    "logs": [
+      "[15:11:04] [SUCCESS] Gemini ready (gemini-flash-lite-latest)",
+      "[15:11:04] [INFO] Starting task: hello",
+      "[15:11:06] [SUCCESS] Browser ready: Chromium 125.0.6422.26",
+      "[15:11:06] [INFO] Analyzing task intent...",
+      "[15:11:07] [INFO] Navigating to: https://www.google.com"
+    ]
+  }
+}
